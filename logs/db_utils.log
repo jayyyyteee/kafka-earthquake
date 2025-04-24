@@ -1,0 +1,971 @@
+2025-04-24 14:38:46,711 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:38:46,712 - db-utils - WARNING - Failed to connect to database (attempt 1/10): connection to server at "postgres" (172.25.0.5), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-24 14:38:46,712 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 14:38:51,724 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:38:51,772 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:38:51,775 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:38:51,775 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:38:51,776 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:38:51,879 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:38:51,879 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:38:51,880 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:38:51,880 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:38:51,880 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:38:53,976 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:38:53,976 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:38:53,976 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:38:53,977 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:38:53,978 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:38:53,979 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:38:53,979 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:38:54,080 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:38:54,081 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:38:54,082 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:38:57,103 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:38:57,105 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:38:57,106 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:38:57,106 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:38:57,137 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 1
+2025-04-24 14:38:57,137 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:38:57,137 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:39:51,882 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:39:52,419 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:39:52,422 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:39:52,422 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:39:52,424 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:39:52,424 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:39:52,425 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:39:52,534 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:39:52,535 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:39:52,536 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:39:52,536 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:39:52,536 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:39:52,539 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:39:52,539 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:39:52,540 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:39:52,540 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:39:52,543 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:39:52,544 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:39:52,544 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:39:52,646 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:40:01,350 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:40:01,352 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:40:01,352 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:40:01,353 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 2
+2025-04-24 14:40:01,353 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:40:01,354 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:40:52,537 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:40:52,949 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:40:52,953 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:40:52,954 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:40:52,957 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:40:52,958 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:40:52,958 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:40:53,060 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:40:53,060 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:40:53,061 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:40:53,061 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:40:53,062 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:40:53,063 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:40:53,063 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:40:53,063 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:40:53,063 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:40:53,064 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:40:53,064 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:40:53,064 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:40:53,165 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:41:02,512 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:41:02,514 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:41:02,515 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:41:02,515 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 3
+2025-04-24 14:41:02,516 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:41:02,516 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:41:53,064 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:41:53,499 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:41:53,503 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:41:53,504 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:41:53,507 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:41:53,507 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:41:53,508 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:41:53,614 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:41:53,614 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:41:53,616 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:41:53,616 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:41:53,616 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:41:53,618 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:41:53,618 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:41:53,618 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:41:53,618 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:41:53,619 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:41:53,620 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:41:53,620 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:41:53,721 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:42:02,535 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:42:02,536 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:42:02,536 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:42:02,537 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 4
+2025-04-24 14:42:02,537 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:42:02,537 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:42:53,620 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:42:54,066 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:42:54,070 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:42:54,071 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:42:54,074 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:42:54,074 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:42:54,074 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:42:54,177 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:42:54,177 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:42:54,177 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:42:54,177 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:42:54,177 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:42:54,179 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:42:54,179 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:42:54,179 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:42:54,179 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:42:54,180 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:42:54,180 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:42:54,180 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:42:54,281 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:43:02,569 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:43:02,572 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:43:02,573 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:43:02,574 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 5
+2025-04-24 14:43:02,574 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:43:02,574 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:43:54,179 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:43:54,643 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:43:54,647 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:43:54,649 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:43:54,652 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:43:54,652 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:43:54,653 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:43:54,759 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:43:54,760 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:43:54,762 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:43:54,762 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:43:54,762 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:43:54,764 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:43:54,765 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:43:54,765 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:43:54,766 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:43:54,768 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:43:54,770 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:43:54,770 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:43:54,872 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:44:03,887 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:44:03,889 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:44:03,889 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:44:03,890 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 6
+2025-04-24 14:44:03,890 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:44:03,891 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:44:54,766 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:44:55,224 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:44:55,228 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:44:55,229 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:44:55,232 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:44:55,233 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:44:55,233 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:44:55,335 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:44:55,335 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:44:55,336 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:44:55,336 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:44:55,336 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:44:55,337 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:44:55,337 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:44:55,337 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:44:55,337 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:44:55,338 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:44:55,339 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:44:55,339 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:44:55,439 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:45:03,924 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:45:03,927 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:45:03,928 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:45:03,929 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 7
+2025-04-24 14:45:03,929 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:45:03,930 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:45:55,338 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:45:55,736 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:45:55,740 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:45:55,741 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:45:55,745 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:45:55,745 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:45:55,745 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:45:55,847 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:45:55,847 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:45:55,848 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:45:55,848 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:45:55,848 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:45:55,848 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:45:55,849 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:45:55,849 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:45:55,849 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:45:55,850 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:45:55,850 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:45:55,850 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:45:55,951 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:46:05,102 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:46:05,104 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:46:05,105 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:46:05,106 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 8
+2025-04-24 14:46:05,106 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:46:05,107 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:46:55,851 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:46:56,332 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:46:56,336 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:46:56,336 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:46:56,339 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:46:56,339 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:46:56,339 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:46:56,443 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:46:56,443 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:46:56,444 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:46:56,444 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:46:56,445 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:46:56,446 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:46:56,446 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:46:56,447 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:46:56,447 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:46:56,448 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:46:56,448 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:46:56,448 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:46:56,549 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:47:05,140 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:47:05,143 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:47:05,144 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:47:05,146 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 9
+2025-04-24 14:47:05,147 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:47:05,147 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:47:56,446 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:47:56,913 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:47:56,917 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:47:56,918 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:47:56,920 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:47:56,921 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:47:56,921 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:47:57,024 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:47:57,024 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:47:57,025 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:47:57,026 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:47:57,026 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:47:57,027 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:47:57,027 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:47:57,027 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:47:57,028 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:47:57,029 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:47:57,030 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:47:57,030 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:47:57,131 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:48:06,344 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:48:06,347 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:48:06,348 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:48:06,350 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 10
+2025-04-24 14:48:06,350 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:48:06,351 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:48:57,030 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:48:57,546 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:48:57,551 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:48:57,553 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:48:57,557 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:48:57,557 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:48:57,558 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:48:57,666 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:48:57,666 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:48:57,669 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:48:57,669 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:48:57,669 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:48:57,675 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:48:57,675 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:48:57,676 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:48:57,678 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:48:57,681 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:48:57,683 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:48:57,683 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:48:57,784 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:49:06,382 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:49:06,384 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:49:06,384 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:49:06,384 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 11
+2025-04-24 14:49:06,385 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:49:06,385 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:49:57,671 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:49:58,261 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:49:58,268 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:49:58,269 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:49:58,274 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:49:58,275 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:49:58,276 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:49:58,381 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:49:58,381 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:49:58,383 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:49:58,383 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:49:58,383 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:49:58,386 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:49:58,386 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:49:58,386 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:49:58,387 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:49:58,388 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:49:58,389 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:49:58,389 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:49:58,490 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:50:07,622 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:50:07,624 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:50:07,624 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:50:07,624 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 12
+2025-04-24 14:50:07,624 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:50:07,625 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:50:58,389 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:50:58,917 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:50:58,920 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:50:58,921 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:50:58,924 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:50:58,925 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:50:58,925 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:50:59,030 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:50:59,030 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:50:59,033 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:50:59,033 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:50:59,033 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:50:59,035 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:50:59,035 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:50:59,036 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:50:59,037 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:50:59,039 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:50:59,040 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:50:59,040 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:50:59,141 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:51:07,654 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:51:07,656 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:51:07,656 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:51:07,657 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 13
+2025-04-24 14:51:07,657 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:51:07,657 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:51:59,036 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:51:59,551 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:51:59,556 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:51:59,557 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:51:59,562 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:51:59,563 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:51:59,563 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:51:59,666 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:51:59,666 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:51:59,667 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:51:59,667 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:51:59,667 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:51:59,668 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:51:59,668 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:51:59,668 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:51:59,668 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:51:59,669 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:51:59,669 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:51:59,669 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:51:59,770 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:52:08,839 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:52:08,840 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:52:08,840 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:52:08,840 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 14
+2025-04-24 14:52:08,841 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:52:08,841 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:52:59,669 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:53:00,212 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:53:00,217 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:53:00,218 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:53:00,222 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:53:00,223 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:53:00,223 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:53:00,327 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:53:00,328 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:53:00,330 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:53:00,331 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:53:00,331 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:53:00,333 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:53:00,333 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:53:00,334 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:53:00,334 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:53:00,336 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:53:00,337 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:53:00,338 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:53:00,439 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:53:08,871 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:53:08,872 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:53:08,872 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:53:08,873 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 15
+2025-04-24 14:53:08,873 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:53:08,873 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:54:00,334 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:54:00,893 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:54:00,897 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:54:00,898 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:54:00,902 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:54:00,902 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:54:00,903 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:54:01,008 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:54:01,009 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:54:01,011 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:54:01,012 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:54:01,012 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:54:01,016 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:54:01,016 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:54:01,016 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:54:01,017 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:54:01,019 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:54:01,021 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:54:01,021 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:54:01,122 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:54:10,085 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:54:10,088 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:54:10,089 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:54:10,092 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 16
+2025-04-24 14:54:10,092 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:54:10,093 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:55:01,016 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:55:01,508 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:55:01,512 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:55:01,513 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:55:01,515 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:55:01,516 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:55:01,516 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:55:01,620 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:55:01,620 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:55:01,621 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:55:01,621 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:55:01,621 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:55:01,623 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:55:01,623 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:55:01,623 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:55:01,624 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:55:01,625 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:55:01,626 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:55:01,627 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:55:01,728 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:55:10,120 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:55:10,122 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:55:10,123 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:55:10,123 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 17
+2025-04-24 14:55:10,123 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:55:10,124 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:56:01,625 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:56:02,065 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:56:02,068 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:56:02,069 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:56:02,073 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:56:02,073 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:56:02,074 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:56:02,176 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:56:02,177 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:56:02,178 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:56:02,178 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:56:02,178 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:56:02,179 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:56:02,179 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:56:02,179 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:56:02,179 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:56:02,180 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:56:02,180 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:56:02,180 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:56:02,281 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:56:11,336 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:56:11,337 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:56:11,337 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:56:11,338 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 18
+2025-04-24 14:56:11,338 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:56:11,338 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:57:02,180 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:57:02,646 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:57:02,650 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:57:02,651 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:57:02,653 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:57:02,654 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:57:02,654 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:57:02,757 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:57:02,757 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:57:02,757 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:57:02,757 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:57:02,757 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:57:02,758 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:57:02,758 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:57:02,758 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:57:02,759 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:57:02,760 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:57:02,760 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:57:02,760 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:57:02,860 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:57:11,373 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:57:11,374 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:57:11,375 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:57:11,376 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 19
+2025-04-24 14:57:11,376 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:57:11,376 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:58:02,759 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:58:03,240 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:58:03,245 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:58:03,246 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:58:03,252 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:58:03,252 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:58:03,253 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:58:03,356 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:58:03,356 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:58:03,357 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:58:03,357 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:58:03,357 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:58:03,358 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:58:03,358 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:58:03,358 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:58:03,358 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:58:03,359 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:58:03,360 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:58:03,360 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:58:03,460 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:58:12,560 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:58:12,562 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:58:12,562 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:58:12,562 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 20
+2025-04-24 14:58:12,563 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:58:12,563 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 14:59:03,359 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 14:59:03,804 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 14:59:03,807 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 14:59:03,807 - db-utils - INFO - Database initialized successfully
+2025-04-24 14:59:03,809 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:59:03,809 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 14:59:03,809 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:59:03,914 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 14:59:03,914 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 14:59:03,916 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 14:59:03,916 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 14:59:03,916 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 14:59:03,917 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 14:59:03,918 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 14:59:03,918 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 14:59:03,918 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 14:59:03,919 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:59:03,919 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:59:03,919 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 14:59:04,020 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 14:59:12,596 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 14:59:12,598 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 14:59:12,599 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 14:59:12,600 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 21
+2025-04-24 14:59:12,601 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 14:59:12,601 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 15:00:03,917 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 15:00:04,309 - earthquake-consumer - INFO - Starting earthquake data consumer...
+2025-04-24 15:00:04,311 - db-utils - INFO - Successfully connected to PostgreSQL database
+2025-04-24 15:00:04,312 - db-utils - INFO - Database initialized successfully
+2025-04-24 15:00:04,314 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 15:00:04,314 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 15:00:04,315 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 15:00:04,420 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 15:00:04,420 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 15:00:04,421 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 15:00:04,421 - earthquake-consumer - INFO - Successfully connected to Kafka as consumer
+2025-04-24 15:00:04,421 - earthquake-consumer - INFO - Waiting for earthquake messages...
+2025-04-24 15:00:04,423 - kafka.cluster - INFO - Group coordinator for earthquake-group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 15:00:04,423 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-group
+2025-04-24 15:00:04,423 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 15:00:04,424 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-group
+2025-04-24 15:00:04,425 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 15:00:04,426 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 15:00:04,427 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 15:00:04,528 - kafka.coordinator - INFO - (Re-)joining group earthquake-group
+2025-04-24 15:00:13,672 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 15:00:13,675 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 15:00:13,675 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 15:00:13,676 - kafka.coordinator - INFO - Successfully joined group earthquake-group with generation 22
+2025-04-24 15:00:13,677 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 15:00:13,677 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-group
+2025-04-24 15:01:04,425 - kafka.coordinator - INFO - Stopping heartbeat thread
+2025-04-24 16:22:53,180 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 16:22:53,181 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 16:22:53,181 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 16:22:53,181 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 16:22:53,181 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 16:22:53,181 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:22:53,199 - db-utils - WARNING - DB connection attempt 1 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:22:53,199 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:22:58,204 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:22:58,215 - db-utils - WARNING - DB connection attempt 2 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:22:58,215 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:03,240 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:03,247 - db-utils - WARNING - DB connection attempt 3 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:23:03,247 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:08,272 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:08,280 - db-utils - WARNING - DB connection attempt 4 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:23:08,280 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:10,478 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 16:23:10,478 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 16:23:10,478 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 16:23:10,478 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 16:23:10,478 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 16:23:10,478 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:10,511 - db-utils - WARNING - DB connection attempt 1 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:23:10,511 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:15,516 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:15,524 - db-utils - WARNING - DB connection attempt 2 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:23:15,525 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:20,549 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:20,558 - db-utils - WARNING - DB connection attempt 3 failed with OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+2025-04-24 16:23:20,558 - db-utils - INFO - Retrying in 5 seconds...
+2025-04-24 16:23:25,584 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:23:25,589 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:23:25,650 - db-utils - INFO - Database initialized successfully
+2025-04-24 16:23:25,650 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 16:23:25,650 - earthquake-loader - INFO - Attempting to connect to Kafka (1/5)...
+2025-04-24 16:23:25,653 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 16:23:25,653 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 16:23:25,654 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 16:23:25,760 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 16:23:25,760 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 16:23:25,760 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 16:23:25,760 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 16:23:25,760 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 16:23:27,614 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 16:23:27,614 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 16:23:27,614 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 16:23:27,614 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 16:23:27,615 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 16:23:27,615 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 16:23:27,615 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 16:23:27,716 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 16:23:27,718 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 16:23:27,718 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 16:23:30,744 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 16:23:30,745 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: connecting to kafka:29092 [('172.25.0.3', 29092) IPv4]
+2025-04-24 16:23:30,745 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.3', 29092)]>: Connection complete.
+2025-04-24 16:23:30,746 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.3', 29092)]>: Closing connection. 
+2025-04-24 16:23:30,773 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-24 16:23:30,773 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 16:23:30,773 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 16:25:05,513 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 16:25:05,514 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 16:25:05,514 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 16:25:05,514 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 16:25:05,514 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 16:25:05,514 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:25:05,520 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:25:05,522 - db-utils - INFO - Database initialized successfully
+2025-04-24 16:25:05,522 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 16:25:05,522 - earthquake-loader - INFO - Attempting to connect to Kafka (1/5)...
+2025-04-24 16:25:05,525 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 16:25:05,525 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 16:25:05,526 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 16:25:05,526 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 16:25:05,573 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 16:25:05,574 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 16:25:05,574 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 16:25:05,574 - earthquake-loader - ERROR - Kafka connection attempt 1 failed: NoBrokersAvailable
+2025-04-24 16:25:05,574 - earthquake-loader - INFO - Retrying in 5 seconds...
+2025-04-24 16:25:10,580 - earthquake-loader - INFO - Attempting to connect to Kafka (2/5)...
+2025-04-24 16:25:10,583 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 16:25:10,583 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 16:25:10,584 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 16:25:10,704 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 16:25:10,705 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 16:25:10,706 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 16:25:10,707 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 16:25:10,707 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 16:25:12,711 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 16:25:12,712 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 16:25:12,712 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 16:25:12,712 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 16:25:12,713 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 16:25:12,713 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 16:25:12,713 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 16:25:12,814 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 16:25:15,837 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 16:25:15,839 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 16:25:15,839 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 16:25:15,867 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-24 16:25:15,867 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 16:25:15,867 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 16:30:08,240 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000225, Magnitude: 3.5, Region: WESTERN TURKEY
+2025-04-24 16:30:08,240 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:30:08,244 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:30:08,246 - db-utils - INFO - Saved earthquake 20250424_0000225 to database
+2025-04-24 16:30:08,256 - earthquake-loader - INFO - LOADED | 20250424_0000225 | mag:3.5 | region:WESTERN TURKEY
+2025-04-24 16:31:25,286 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000226, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-24 16:31:25,287 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:31:25,293 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:31:25,295 - db-utils - INFO - Saved earthquake 20250424_0000226 to database
+2025-04-24 16:31:25,297 - earthquake-loader - INFO - LOADED | 20250424_0000226 | mag:2.0 | region:WESTERN TURKEY
+2025-04-24 16:43:01,197 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000519, Magnitude: 2.7, Region: NORTHERN YUKON TERRITORY, CANADA
+2025-04-24 16:43:01,197 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:43:01,200 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:43:01,202 - db-utils - INFO - Saved earthquake 20250423_0000519 to database
+2025-04-24 16:43:01,214 - earthquake-loader - INFO - LOADED | 20250423_0000519 | mag:2.7 | region:NORTHERN YUKON TERRITORY, CANADA
+2025-04-24 16:46:00,169 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000227, Magnitude: 2.2, Region: CENTRAL TURKEY
+2025-04-24 16:46:00,170 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:46:00,175 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:46:00,177 - db-utils - INFO - Saved earthquake 20250424_0000227 to database
+2025-04-24 16:46:00,190 - earthquake-loader - INFO - LOADED | 20250424_0000227 | mag:2.2 | region:CENTRAL TURKEY
+2025-04-24 16:56:07,229 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000228, Magnitude: 2.3, Region: ISLAND OF HAWAII, HAWAII
+2025-04-24 16:56:07,229 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:56:07,234 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:56:07,236 - db-utils - INFO - Saved earthquake 20250424_0000228 to database
+2025-04-24 16:56:07,249 - earthquake-loader - INFO - LOADED | 20250424_0000228 | mag:2.3 | region:ISLAND OF HAWAII, HAWAII
+2025-04-24 16:59:37,160 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000224, Magnitude: 3.9, Region: NEAR EAST COAST OF HONSHU, JAPAN
+2025-04-24 16:59:37,160 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 16:59:37,167 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 16:59:37,170 - db-utils - INFO - Saved earthquake 20250424_0000224 to database
+2025-04-24 16:59:37,183 - earthquake-loader - INFO - LOADED | 20250424_0000224 | mag:3.9 | region:NEAR EAST COAST OF HONSHU, JAPAN
+2025-04-24 17:00:59,479 - earthquake-loader - INFO - Processing earthquake - ID: 20250415_0000217, Magnitude: 2.5, Region: SOUTHEASTERN MISSOURI
+2025-04-24 17:00:59,480 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:00:59,484 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:00:59,486 - db-utils - INFO - Saved earthquake 20250415_0000217 to database
+2025-04-24 17:00:59,498 - earthquake-loader - INFO - LOADED | 20250415_0000217 | mag:2.5 | region:SOUTHEASTERN MISSOURI
+2025-04-24 17:03:23,731 - earthquake-loader - INFO - Processing earthquake - ID: 20250421_0000025, Magnitude: 2.2, Region: SOUTHERN CALIFORNIA
+2025-04-24 17:03:23,731 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:03:23,734 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:03:23,735 - db-utils - INFO - Saved earthquake 20250421_0000025 to database
+2025-04-24 17:03:23,747 - earthquake-loader - INFO - LOADED | 20250421_0000025 | mag:2.2 | region:SOUTHERN CALIFORNIA
+2025-04-24 17:06:23,893 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000229, Magnitude: 2.9, Region: ROMANIA
+2025-04-24 17:06:23,893 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:06:23,897 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:06:23,898 - db-utils - INFO - Saved earthquake 20250424_0000229 to database
+2025-04-24 17:06:23,900 - earthquake-loader - INFO - LOADED | 20250424_0000229 | mag:2.9 | region:ROMANIA
+2025-04-24 17:06:46,323 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000185, Magnitude: 1.8, Region: SWITZERLAND
+2025-04-24 17:06:46,323 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:06:46,329 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:06:46,331 - db-utils - INFO - Saved earthquake 20250424_0000185 to database
+2025-04-24 17:06:46,333 - earthquake-loader - INFO - LOADED | 20250424_0000185 | mag:1.8 | region:SWITZERLAND
+2025-04-24 17:13:32,634 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000520, Magnitude: 2.6, Region: EASTERN MONTANA
+2025-04-24 17:13:32,634 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:13:32,638 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:13:32,642 - db-utils - INFO - Saved earthquake 20250423_0000520 to database
+2025-04-24 17:13:32,654 - earthquake-loader - INFO - LOADED | 20250423_0000520 | mag:2.6 | region:EASTERN MONTANA
+2025-04-24 17:15:55,261 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 17:15:55,261 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 17:15:55,261 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 17:15:55,261 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 17:15:55,261 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 17:15:55,261 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:15:55,269 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:15:55,270 - db-utils - INFO - Database initialized successfully
+2025-04-24 17:15:55,270 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 17:15:55,270 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 17:15:55,274 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:15:55,274 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 17:15:55,275 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 17:15:55,275 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 17:15:55,321 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:15:55,322 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 17:15:55,322 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 17:16:35,323 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 17:16:35,323 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 17:16:35,324 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 17:16:35,324 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 17:16:35,324 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 17:16:35,324 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:16:35,331 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:16:35,333 - db-utils - INFO - Database initialized successfully
+2025-04-24 17:16:35,333 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 17:16:35,333 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 17:16:35,336 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:16:35,336 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 17:16:35,337 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 17:16:35,337 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 17:16:35,384 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:16:35,384 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]> returned error 111. Disconnecting.
+2025-04-24 17:16:35,384 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-04-24 17:34:07,658 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 17:34:07,658 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 17:34:07,658 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 17:34:07,658 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 17:34:07,658 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 17:34:07,658 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:34:07,662 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:34:07,664 - db-utils - INFO - Database initialized successfully
+2025-04-24 17:34:07,664 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 17:34:07,664 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 17:34:07,667 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:34:07,668 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 17:34:07,668 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:34:07,773 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 17:34:07,774 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 17:34:07,776 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 17:34:07,776 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 17:34:07,776 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 17:34:09,661 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 17:34:09,661 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 17:34:09,661 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 17:34:09,662 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 17:34:09,662 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:34:09,662 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:34:09,662 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:34:09,763 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 17:34:09,765 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:34:09,765 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:34:12,791 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 17:34:12,792 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:34:12,793 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:34:12,793 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:34:12,828 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-24 17:34:12,829 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 17:34:12,829 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 17:34:19,119 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000238, Magnitude: 3.1, Region: CZECH REPUBLIC
+2025-04-24 17:34:19,119 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:34:19,122 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:34:19,124 - db-utils - INFO - Saved earthquake 20250424_0000238 to database
+2025-04-24 17:34:19,136 - earthquake-loader - INFO - LOADED | 20250424_0000238 | mag:3.1 | region:CZECH REPUBLIC
+2025-04-24 17:36:22,652 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000075, Magnitude: 2.5, Region: CENTRAL CALIFORNIA
+2025-04-24 17:36:22,652 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:36:22,655 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:36:22,656 - db-utils - INFO - Saved earthquake 20250424_0000075 to database
+2025-04-24 17:36:22,668 - earthquake-loader - INFO - LOADED | 20250424_0000075 | mag:2.5 | region:CENTRAL CALIFORNIA
+2025-04-24 17:46:10,623 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 17:46:10,624 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 17:46:10,624 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 17:46:10,624 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 17:46:10,624 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 17:46:10,624 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:46:10,629 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:46:10,631 - db-utils - INFO - Database initialized successfully
+2025-04-24 17:46:10,631 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 17:46:10,631 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 17:46:10,634 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:46:10,634 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 17:46:10,634 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:46:10,736 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 17:46:10,736 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 17:46:10,737 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 17:46:10,737 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 17:46:10,737 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 17:46:12,592 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 17:46:12,592 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 17:46:12,593 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 17:46:12,594 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 17:46:12,596 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:46:12,597 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:46:12,598 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:46:12,700 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 17:46:12,701 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:46:12,701 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:46:15,716 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 17:46:15,717 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:46:15,718 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:46:15,718 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:46:15,742 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-24 17:46:15,742 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 17:46:15,742 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 17:46:48,920 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000239, Magnitude: 1.8, Region: WESTERN TURKEY
+2025-04-24 17:46:48,920 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:46:48,923 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:46:48,924 - db-utils - INFO - Saved earthquake 20250424_0000239 to database
+2025-04-24 17:46:48,936 - earthquake-loader - INFO - LOADED | 20250424_0000239 | mag:1.8 | region:WESTERN TURKEY
+2025-04-24 17:49:11,936 - db-utils - INFO - DB Connection parameters: HOST=postgres, PORT=5432, DB=earthquakedb, USER=earthquake
+2025-04-24 17:49:11,936 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 17:49:11,936 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 17:49:11,936 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 17:49:11,936 - db-utils - INFO - Attempting to initialize database tables...
+2025-04-24 17:49:11,936 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:49:11,939 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:49:11,940 - db-utils - INFO - Database initialized successfully
+2025-04-24 17:49:11,940 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 17:49:11,940 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 17:49:11,943 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:49:11,943 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 17:49:11,944 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:49:12,049 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 17:49:12,049 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 17:49:12,051 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 17:49:12,052 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 17:49:12,052 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 17:49:14,041 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 17:49:14,041 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 17:49:14,041 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 17:49:14,042 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 17:49:14,042 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:49:14,043 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:49:14,043 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:49:14,144 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 17:49:14,147 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:49:14,147 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:49:17,178 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 17:49:17,180 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 17:49:17,181 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 17:49:17,181 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 17:49:17,223 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-24 17:49:17,224 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 17:49:17,224 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 17:50:34,757 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000233, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-24 17:50:34,757 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:50:34,763 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:50:34,765 - db-utils - INFO - Saved earthquake 20250424_0000233 to database
+2025-04-24 17:50:34,768 - earthquake-loader - INFO - LOADED | 20250424_0000233 | mag:1.6 | region:WESTERN TURKEY
+2025-04-24 17:52:33,510 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000462, Magnitude: 2.8, Region: SOUTHERN CALIFORNIA
+2025-04-24 17:52:33,511 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:52:33,514 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:52:33,515 - db-utils - INFO - Saved earthquake 20250423_0000462 to database
+2025-04-24 17:52:33,527 - earthquake-loader - INFO - LOADED | 20250423_0000462 | mag:2.8 | region:SOUTHERN CALIFORNIA
+2025-04-24 17:52:40,984 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000240, Magnitude: 2.4, Region: DODECANESE IS.-TURKEY BORDER REG
+2025-04-24 17:52:40,984 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:52:40,987 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:52:40,988 - db-utils - INFO - Saved earthquake 20250424_0000240 to database
+2025-04-24 17:52:41,000 - earthquake-loader - INFO - LOADED | 20250424_0000240 | mag:2.4 | region:DODECANESE IS.-TURKEY BORDER REG
+2025-04-24 17:56:22,282 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000193, Magnitude: 4.3, Region: SUMBAWA REGION, INDONESIA
+2025-04-24 17:56:22,283 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:56:22,288 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:56:22,291 - db-utils - INFO - Saved earthquake 20250424_0000193 to database
+2025-04-24 17:56:22,303 - earthquake-loader - INFO - LOADED | 20250424_0000193 | mag:4.3 | region:SUMBAWA REGION, INDONESIA
+2025-04-24 17:56:42,444 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000241, Magnitude: 2.5, Region: WESTERN TURKEY
+2025-04-24 17:56:42,444 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 17:56:42,447 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 17:56:42,449 - db-utils - INFO - Saved earthquake 20250424_0000241 to database
+2025-04-24 17:56:42,460 - earthquake-loader - INFO - LOADED | 20250424_0000241 | mag:2.5 | region:WESTERN TURKEY
+2025-04-24 18:00:41,840 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000242, Magnitude: 3.4, Region: SOUTHERN IRAN
+2025-04-24 18:00:41,840 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 18:00:41,843 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 18:00:41,844 - db-utils - INFO - Saved earthquake 20250424_0000242 to database
+2025-04-24 18:00:41,856 - earthquake-loader - INFO - LOADED | 20250424_0000242 | mag:3.4 | region:SOUTHERN IRAN
+2025-04-24 18:04:15,633 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000243, Magnitude: 4.2, Region: SOUTHERN XINJIANG, CHINA
+2025-04-24 18:04:15,633 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 18:04:15,636 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 18:04:15,638 - db-utils - INFO - Saved earthquake 20250424_0000243 to database
+2025-04-24 18:04:15,650 - earthquake-loader - INFO - LOADED | 20250424_0000243 | mag:4.2 | region:SOUTHERN XINJIANG, CHINA
+2025-04-24 18:17:20,879 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000244, Magnitude: 2.9, Region: WESTERN TURKEY
+2025-04-24 18:17:20,880 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 18:17:20,884 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 18:17:20,885 - db-utils - INFO - Saved earthquake 20250424_0000244 to database
+2025-04-24 18:17:20,899 - earthquake-loader - INFO - LOADED | 20250424_0000244 | mag:2.9 | region:WESTERN TURKEY
+2025-04-24 18:21:23,061 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000245, Magnitude: 3.0, Region: SUMBA REGION, INDONESIA
+2025-04-24 18:21:23,061 - db-utils - INFO - Connecting to PostgreSQL - Host: postgres, Port: 5432, DB: earthquakedb, User: earthquake
+2025-04-24 18:21:23,066 - db-utils - INFO - Successfully connected to PostgreSQL database earthquakedb on postgres as earthquake
+2025-04-24 18:21:23,067 - db-utils - INFO - Saved earthquake 20250424_0000245 to database
+2025-04-24 18:21:23,079 - earthquake-loader - INFO - LOADED | 20250424_0000245 | mag:3.0 | region:SUMBA REGION, INDONESIA
+2025-04-24 18:24:26,650 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-24 18:24:26,650 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-24 18:24:26,651 - earthquake-loader - INFO - Initializing database schema...
+2025-04-24 18:24:26,656 - db-utils - INFO - Database initialized successfully
+2025-04-24 18:24:26,657 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-24 18:24:26,657 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-24 18:24:26,660 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 18:24:26,660 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-24 18:24:26,660 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 18:24:26,768 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-24 18:24:26,769 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-24 18:24:26,770 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-24 18:24:26,770 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-24 18:24:26,770 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-24 18:24:26,778 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-24 18:24:26,778 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-24 18:24:26,778 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-24 18:24:26,779 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-24 18:24:26,781 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 18:24:26,781 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 18:24:26,782 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 18:24:26,882 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-24 18:24:30,503 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-24 18:24:30,505 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 18:24:30,506 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 18:24:30,535 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 2
+2025-04-24 18:24:30,535 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-24 18:24:30,535 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
