@@ -19,7 +19,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# Database connection parameters
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "earthquakedb"
@@ -133,7 +132,7 @@ This dashboard provides real-time visualization of earthquake data from around t
 Data is updated automatically to show the most recent earthquakes.
 """)
 
-# Create sidebar for controls
+# Filter Sidebar
 st.sidebar.header("Dashboard Controls")
 
 # Time range selector
@@ -159,7 +158,6 @@ min_magnitude = st.sidebar.slider(
     step=0.5
 )
 
-# Display last updated time
 if 'last_updated' not in st.session_state:
     st.session_state.last_updated = datetime.now()
 
@@ -181,7 +179,6 @@ st.write(f"### Displaying {data_count} earthquakes with magnitude ≥ {min_magni
 tab1, tab2 = st.tabs(["Map View", "Data Table"])
 
 with tab1:
-    # Map container with loading indicator
     with st.container():
         if data_count > 0:
             map_fig = create_earthquake_map(earthquake_data)
@@ -189,12 +186,11 @@ with tab1:
         else:
             st.info("No earthquake data to display for the selected criteria.")
     
-    # Add vertical space between map and statistics
+  
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown("### Key Statistics")
     st.markdown("<br>", unsafe_allow_html=True)
-            
-    # Statistics below the map
+
     if data_count > 0:
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -205,15 +201,14 @@ with tab1:
             st.metric("Deepest Earthquake", f"{earthquake_data['depth'].max():.1f} km")
 
 with tab2:
-    # Display data table
+
     if not earthquake_data.empty:
-        # Reformat time column for better display
+
         display_df = earthquake_data.copy()
         if 'time' in display_df.columns:
-            # Format UTC time
+
             display_df['time_utc'] = pd.to_datetime(display_df['time']).dt.strftime('%Y-%m-%d %H:%M:%S')
-            
-            # Convert to Pacific time
+
             pacific = pytz.timezone('US/Pacific')
             display_df['time_pacific'] = pd.to_datetime(display_df['time'], utc=True)
             display_df['time_pacific'] = display_df['time_pacific'].dt.tz_convert(pacific)
