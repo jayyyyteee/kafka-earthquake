@@ -969,3 +969,15 @@
 2025-04-24 18:24:30,535 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 2
 2025-04-24 18:24:30,535 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
 2025-04-24 18:24:30,535 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-24 18:27:25,673 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000238, Magnitude: 3.2, Region: CZECH REPUBLIC
+2025-04-24 18:27:25,691 - earthquake-loader - INFO - LOADED | 20250424_0000238 | mag:3.2 | region:CZECH REPUBLIC
+2025-04-24 18:28:01,602 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000246, Magnitude: 2.5, Region: CENTRAL CALIFORNIA
+2025-04-24 18:28:01,621 - earthquake-loader - INFO - LOADED | 20250424_0000246 | mag:2.5 | region:CENTRAL CALIFORNIA
+2025-04-24 18:28:23,323 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000247, Magnitude: 3.3, Region: SULAWESI, INDONESIA
+2025-04-24 18:28:23,341 - earthquake-loader - INFO - LOADED | 20250424_0000247 | mag:3.3 | region:SULAWESI, INDONESIA
+2025-04-24 18:28:24,747 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000248, Magnitude: 3.0, Region: FLORES REGION, INDONESIA
+2025-04-24 18:28:24,768 - earthquake-loader - INFO - LOADED | 20250424_0000248 | mag:3.0 | region:FLORES REGION, INDONESIA
+2025-04-24 18:29:17,275 - earthquake-loader - INFO - Processing earthquake - ID: 20250419_0000158, Magnitude: 2.2, Region: NORTHERN CALIFORNIA
+2025-04-24 18:29:17,290 - earthquake-loader - INFO - LOADED | 20250419_0000158 | mag:2.2 | region:NORTHERN CALIFORNIA
+2025-04-24 18:35:22,478 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000249, Magnitude: 4.0, Region: PAPUA, INDONESIA
+2025-04-24 18:35:22,499 - earthquake-loader - INFO - LOADED | 20250424_0000249 | mag:4.0 | region:PAPUA, INDONESIA

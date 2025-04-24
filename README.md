@@ -64,19 +64,24 @@ SELECT id, magnitude, time, place FROM earthquakes WHERE magnitude >= 5.0 ORDER 
 
 ## Configuration
 
-The pipeline is configured to:
-- Fetch earthquake data every minute
-- Process earthquakes with magnitude >= 1.0
-- Store all earthquake data in PostgreSQL
+The pipeline is configured with the following components:
 
-You can modify these settings in the `producer.py` and `consumer.py` files.
+- **Producer**: Maintains a continuous WebSocket connection to SeismicPortal.eu, receiving earthquake data in real-time as events occur
+- **Kafka**: Acts as a message buffer, decoupling data production from consumption
+- **Consumer**: Processes all incoming earthquake messages from Kafka and stores them in PostgreSQL
+- **Dashboard**: Provides a visualization interface with customizable filters for magnitude and time range
+
+The system collects all earthquake data regardless of magnitude. The Streamlit dashboard allows filtering by magnitude and time period at display time.
+
+You can modify these settings in the `producer_websocket.py`, `consumer.py`, and `earthquake_dashboard.py` files.
 
 ## Architecture Details
 
-### Producer (`producer.py`)
-- Polls the SeismicPortal.eu API every minute
+### Producer (`producer_websocket.py`)
+- Establishes a persistent WebSocket connection to SeismicPortal.eu
+- Receives earthquake data in real-time as events occur
 - Tracks which earthquakes have already been processed
-- Publishes new earthquakes to the Kafka "earthquakes" topic
+- Publishes earthquakes to the Kafka "earthquakes" topic
 
 ### Consumer (`consumer.py`)
 - Subscribes to the Kafka "earthquakes" topic
@@ -88,14 +93,14 @@ You can modify these settings in the `producer.py` and `consumer.py` files.
 - Creates necessary database tables
 - Provides functions for storing and retrieving earthquake data
 
+### Dashboard (`earthquake_dashboard.py`)
+- Creates an interactive Streamlit visualization
+- Provides filtering by magnitude and time period
+- Displays earthquakes on an interactive map
+- Shows statistics and tabular data
+
 ## Stopping the Pipeline
 
-To stop all services:
 ```bash
 docker-compose down
 ```
-
-To stop and remove all data (including PostgreSQL volumes):
-```bash
-docker-compose down -v
-``` 

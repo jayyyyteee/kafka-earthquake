@@ -232,3 +232,18 @@
 2025-04-24 18:24:26,836 - earthquake-producer - INFO - Kafka producer initialized
 2025-04-24 18:24:26,841 - earthquake-producer - INFO - Opening WebSocket connection to data source
 2025-04-24 18:24:28,296 - earthquake-producer - INFO - WebSocket connection established
+2025-04-24 18:27:25,657 - earthquake-producer - INFO - EXTRACTED | update | 20250424_0000238 | mag:3.2 | region:CZECH REPUBLIC
+2025-04-24 18:27:25,659 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-24 18:27:25,659 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-24 18:27:25,659 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-24 18:27:25,672 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000238
+2025-04-24 18:28:01,595 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000246 | mag:2.5 | region:CENTRAL CALIFORNIA
+2025-04-24 18:28:01,601 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000246
+2025-04-24 18:28:23,321 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000247 | mag:3.3 | region:SULAWESI, INDONESIA
+2025-04-24 18:28:23,323 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000247
+2025-04-24 18:28:24,740 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000248 | mag:3.0 | region:FLORES REGION, INDONESIA
+2025-04-24 18:28:24,746 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000248
+2025-04-24 18:29:17,272 - earthquake-producer - INFO - EXTRACTED | update | 20250419_0000158 | mag:2.2 | region:NORTHERN CALIFORNIA
+2025-04-24 18:29:17,274 - earthquake-producer - INFO - SENT TO KAFKA | 20250419_0000158
+2025-04-24 18:35:22,472 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000249 | mag:4.0 | region:PAPUA, INDONESIA
+2025-04-24 18:35:22,477 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000249
