@@ -32,7 +32,7 @@ This project implements a modern data pipeline with the following components:
 3. Start the entire system with Docker Compose:
 
 ```bash
-docker compose up -d
+docker compose up --build
 ```
 
 This will start:
