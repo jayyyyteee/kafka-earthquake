@@ -199,7 +199,7 @@ with tab1:
         with col2:
             st.metric("Average Magnitude", f"{earthquake_data['magnitude'].mean():.1f}")
         with col3:
-            st.metric("Deepest Earthquake", f"{earthquake_data['depth'].max():.1f} km")
+            st.metric("Deepest Earthquake", f"{earthquake_data['depth'].min():.1f} km")
 
 with tab2:
 

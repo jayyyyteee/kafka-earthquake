@@ -431,3 +431,43 @@
 2025-04-25 00:20:56,987 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000002
 2025-04-25 00:23:49,958 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000003 | mag:2.2 | region:WESTERN TURKEY
 2025-04-25 00:23:49,962 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000003
+2025-04-25 00:38:11,696 - earthquake-producer - INFO - Starting earthquake data ingestion pipeline
+2025-04-25 00:38:11,697 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:38:11,697 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-25 00:38:11,697 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:38:11,799 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-25 00:38:11,799 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-25 00:38:11,801 - earthquake-producer - INFO - Kafka producer initialized
+2025-04-25 00:38:11,802 - earthquake-producer - INFO - Opening WebSocket connection to data source
+2025-04-25 00:38:12,789 - earthquake-producer - INFO - WebSocket connection established
+2025-04-25 00:42:49,446 - earthquake-producer - INFO - EXTRACTED | update | 20250425_0000001 | mag:3.9 | region:OFF COAST OF COSTA RICA
+2025-04-25 00:42:49,498 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:42:49,499 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:42:49,499 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-25 00:42:49,511 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000001
+2025-04-25 00:42:52,343 - earthquake-producer - INFO - EXTRACTED | update | 20250425_0000002 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 00:42:52,349 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000002
+2025-04-25 00:44:17,705 - earthquake-producer - INFO - EXTRACTED | update | 20250425_0000003 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 00:44:17,707 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000003
+2025-04-25 00:46:07,103 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000004 | mag:1.8 | region:WESTERN TURKEY
+2025-04-25 00:46:07,105 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000004
+2025-04-25 00:47:44,128 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000005 | mag:1.1 | region:EASTERN TURKEY
+2025-04-25 00:47:44,131 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000005
+2025-04-25 00:56:22,942 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000006 | mag:2.6 | region:SULAWESI, INDONESIA
+2025-04-25 00:56:22,948 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000006
+2025-04-25 01:02:38,040 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000007 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 01:02:38,042 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000007
+2025-04-25 01:07:16,397 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000008 | mag:2.6 | region:BAJA CALIFORNIA, MEXICO
+2025-04-25 01:07:16,402 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000008
+2025-04-25 01:07:42,372 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000009 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 01:07:42,377 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000009
+2025-04-25 01:13:26,409 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000010 | mag:2.2 | region:AZORES ISLANDS, PORTUGAL
+2025-04-25 01:13:26,414 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000010
+2025-04-25 01:15:19,436 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000011 | mag:2.5 | region:GREECE
+2025-04-25 01:15:19,440 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000011
+2025-04-25 01:15:56,771 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000012 | mag:2.6 | region:COQUIMBO, CHILE
+2025-04-25 01:15:56,772 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000012
+2025-04-25 01:16:50,213 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000013 | mag:4.6 | region:NEW BRITAIN REGION, P.N.G.
+2025-04-25 01:16:50,215 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000013
+2025-04-25 01:24:20,975 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000014 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 01:24:20,978 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000014

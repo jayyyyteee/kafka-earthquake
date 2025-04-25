@@ -1,14 +1,25 @@
 # Kafka Earthquake Data Pipeline
 
-A real-time data pipeline for ingesting earthquake data from SeismicPortal.eu using Apache Kafka.
+A real-time data pipeline that continuously collects, processes, and visualizes global earthquake data from SeismicPortal.eu.
+
+## Overview
+
+This system establishes a persistent connection to seismic data sources and builds a **live, continuously-growing database** of global earthquake events. As soon as you start the pipeline, it begins capturing earthquake data in real-time, allowing you to:
+
+- Build a comprehensive database of global seismic activity
+- Visualize earthquakes on an interactive map
+- Filter events by magnitude and time period
+- Monitor seismic trends with real-time statistics
 
 ## Architecture
 
-This project implements a simple data pipeline with the following components:
+This project implements a modern data pipeline with the following components:
 
-1. **Kafka Producer**: Fetches real-time earthquake data from SeismicPortal.eu and publishes it to a Kafka topic
-2. **Kafka Consumer**: Subscribes to the Kafka topic and processes the earthquake data
-3. **PostgreSQL Database**: Stores the processed earthquake data
+1. **Kafka Producer**: Maintains a WebSocket connection to SeismicPortal.eu and publishes real-time earthquake data to a Kafka topic
+2. **Kafka**: Acts as a resilient message buffer between data collection and processing
+3. **Kafka Consumer**: Processes incoming earthquake data and stores it in PostgreSQL
+4. **PostgreSQL Database**: Accumulates all earthquake records as they occur globally
+5. **Streamlit Dashboard**: Provides interactive visualization of the continuously updating earthquake database
 
 ## Prerequisites
 
@@ -21,7 +32,7 @@ This project implements a simple data pipeline with the following components:
 3. Start the entire system with Docker Compose:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This will start:
@@ -30,36 +41,49 @@ This will start:
 - PostgreSQL database
 - Earthquake data producer
 - Earthquake data consumer
+- Streamlit dashboard
+
+4. Access the live dashboard at [http://localhost:8501](http://localhost:8501)
+
+**Note**: Your earthquake database will start empty and grow over time as new seismic events occur. The system requires no manual data loading - it automatically captures earthquake data as it's published by seismic monitoring stations.
 
 ## Monitoring
+
+### View the Dashboard
+
+The most user-friendly way to monitor the system is through the Streamlit dashboard at [http://localhost:8501](http://localhost:8501), which provides:
+- Real-time map visualization
+- Data filtering capabilities
+- Earthquake statistics
+- Tabular data views
 
 ### View logs
 
 To view the producer logs:
 ```bash
-docker-compose logs -f earthquake-producer
+docker compose logs -f earthquake-producer
 ```
 
 To view the consumer logs:
 ```bash
-docker-compose logs -f earthquake-consumer
+docker compose logs -f earthquake-consumer
 ```
 
 ### Check data in PostgreSQL
 
 Connect to the PostgreSQL database:
 ```bash
-docker-compose exec postgres psql -U earthquake -d earthquakedb
+docker compose exec postgres psql -U earthquake -d earthquakedb
 ```
 
 Query recent earthquakes:
 ```sql
-SELECT id, magnitude, time, place FROM earthquakes ORDER BY time DESC LIMIT 10;
+SELECT unid, magnitude, time, region FROM earthquakes ORDER BY time DESC LIMIT 10;
 ```
 
 Query significant earthquakes:
 ```sql
-SELECT id, magnitude, time, place FROM earthquakes WHERE magnitude >= 5.0 ORDER BY time DESC;
+SELECT unid, magnitude, time, region FROM earthquakes WHERE magnitude >= 5.0 ORDER BY time DESC;
 ```
 
 ## Configuration
@@ -102,5 +126,5 @@ You can modify these settings in the `producer_websocket.py`, `consumer.py`, and
 ## Stopping the Pipeline
 
 ```bash
-docker-compose down
-```
+docker compose down
+``` 
