@@ -70,5 +70,24 @@ services:
     volumes:
       - ./logs:/app/logs
 
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=earthquakedb
+      - DB_USER=earthquake
+      - DB_PASSWORD=quakedata
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+
 volumes:
   postgres-data: 

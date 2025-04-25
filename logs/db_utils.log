@@ -1133,3 +1133,54 @@
 2025-04-24 23:10:44,690 - earthquake-loader - INFO - LOADED | 20250424_0000317 | mag:1.9 | region:CENTRAL TURKEY
 2025-04-24 23:26:47,961 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000318, Magnitude: 2.0, Region: NEVADA
 2025-04-24 23:26:47,978 - earthquake-loader - INFO - LOADED | 20250424_0000318 | mag:2.0 | region:NEVADA
+2025-04-24 23:36:05,094 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000319, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-24 23:36:05,117 - earthquake-loader - INFO - LOADED | 20250424_0000319 | mag:1.4 | region:WESTERN TURKEY
+2025-04-24 23:42:22,862 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000320, Magnitude: 2.8, Region: SUNDA STRAIT, INDONESIA
+2025-04-24 23:42:22,880 - earthquake-loader - INFO - LOADED | 20250424_0000320 | mag:2.8 | region:SUNDA STRAIT, INDONESIA
+2025-04-24 23:44:04,721 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000321, Magnitude: 2.3, Region: BRITISH COLUMBIA, CANADA
+2025-04-24 23:44:04,740 - earthquake-loader - INFO - LOADED | 20250424_0000321 | mag:2.3 | region:BRITISH COLUMBIA, CANADA
+2025-04-24 23:56:22,954 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000322, Magnitude: 3.4, Region: SOUTH OF JAVA, INDONESIA
+2025-04-24 23:56:22,974 - earthquake-loader - INFO - LOADED | 20250424_0000322 | mag:3.4 | region:SOUTH OF JAVA, INDONESIA
+2025-04-25 00:01:50,124 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000323, Magnitude: 2.5, Region: WESTERN TURKEY
+2025-04-25 00:01:50,143 - earthquake-loader - INFO - LOADED | 20250424_0000323 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 00:03:11,532 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000324, Magnitude: 2.7, Region: WESTERN TURKEY
+2025-04-25 00:03:11,551 - earthquake-loader - INFO - LOADED | 20250424_0000324 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 00:07:52,623 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000325, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 00:07:52,642 - earthquake-loader - INFO - LOADED | 20250424_0000325 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 00:14:24,563 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-25 00:14:24,563 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-25 00:14:24,563 - earthquake-loader - INFO - Initializing database schema...
+2025-04-25 00:14:24,568 - db-utils - INFO - Database initialized successfully
+2025-04-25 00:14:24,568 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-25 00:14:24,568 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-25 00:14:24,572 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:24,572 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-25 00:14:24,572 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:24,674 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-25 00:14:24,675 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-25 00:14:24,675 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-25 00:14:24,675 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-25 00:14:24,675 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-25 00:14:26,543 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-25 00:14:26,543 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-25 00:14:26,543 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-25 00:14:26,543 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-25 00:14:26,544 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:26,545 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:26,545 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-25 00:14:26,645 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-25 00:14:26,647 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:26,647 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:29,667 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-25 00:14:29,668 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:29,669 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:29,669 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-25 00:14:29,703 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-25 00:14:29,704 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-25 00:14:29,704 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-25 00:14:58,532 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000001, Magnitude: 3.5, Region: OFF COAST OF COSTA RICA
+2025-04-25 00:14:58,539 - earthquake-loader - INFO - LOADED | 20250425_0000001 | mag:3.5 | region:OFF COAST OF COSTA RICA
+2025-04-25 00:20:56,989 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000002, Magnitude: 2.5, Region: WESTERN TURKEY
+2025-04-25 00:20:57,014 - earthquake-loader - INFO - LOADED | 20250425_0000002 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 00:23:49,963 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000003, Magnitude: 2.2, Region: WESTERN TURKEY
+2025-04-25 00:23:49,986 - earthquake-loader - INFO - LOADED | 20250425_0000003 | mag:2.2 | region:WESTERN TURKEY

@@ -399,3 +399,35 @@
 2025-04-24 23:10:44,667 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000317
 2025-04-24 23:26:47,959 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000318 | mag:2.0 | region:NEVADA
 2025-04-24 23:26:47,961 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000318
+2025-04-24 23:36:05,089 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000319 | mag:1.4 | region:WESTERN TURKEY
+2025-04-24 23:36:05,093 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000319
+2025-04-24 23:42:22,857 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000320 | mag:2.8 | region:SUNDA STRAIT, INDONESIA
+2025-04-24 23:42:22,861 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000320
+2025-04-24 23:44:04,717 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000321 | mag:2.3 | region:BRITISH COLUMBIA, CANADA
+2025-04-24 23:44:04,721 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000321
+2025-04-24 23:56:22,949 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000322 | mag:3.4 | region:SOUTH OF JAVA, INDONESIA
+2025-04-24 23:56:22,954 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000322
+2025-04-25 00:01:50,119 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000323 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 00:01:50,124 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000323
+2025-04-25 00:03:11,527 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000324 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 00:03:11,531 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000324
+2025-04-25 00:07:52,618 - earthquake-producer - INFO - EXTRACTED | create | 20250424_0000325 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 00:07:52,622 - earthquake-producer - INFO - SENT TO KAFKA | 20250424_0000325
+2025-04-25 00:14:24,613 - earthquake-producer - INFO - Starting earthquake data ingestion pipeline
+2025-04-25 00:14:24,614 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:24,614 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-25 00:14:24,615 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:24,717 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-25 00:14:24,717 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-25 00:14:24,719 - earthquake-producer - INFO - Kafka producer initialized
+2025-04-25 00:14:24,722 - earthquake-producer - INFO - Opening WebSocket connection to data source
+2025-04-25 00:14:25,719 - earthquake-producer - INFO - WebSocket connection established
+2025-04-25 00:14:58,470 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000001 | mag:3.5 | region:OFF COAST OF COSTA RICA
+2025-04-25 00:14:58,521 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: connecting to kafka:29092 [('172.25.0.4', 29092) IPv4]
+2025-04-25 00:14:58,521 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.4', 29092)]>: Connection complete.
+2025-04-25 00:14:58,522 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.4', 29092)]>: Closing connection. 
+2025-04-25 00:14:58,530 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000001
+2025-04-25 00:20:56,981 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000002 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 00:20:56,987 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000002
+2025-04-25 00:23:49,958 - earthquake-producer - INFO - EXTRACTED | create | 20250425_0000003 | mag:2.2 | region:WESTERN TURKEY
+2025-04-25 00:23:49,962 - earthquake-producer - INFO - SENT TO KAFKA | 20250425_0000003

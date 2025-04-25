@@ -11,6 +11,7 @@ from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 import pytz
+import os
 
 # Page configuration
 st.set_page_config(
@@ -19,11 +20,11 @@ st.set_page_config(
     layout="wide",
 )
 
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "earthquakedb"
-DB_USER = "earthquake"
-DB_PASS = "quakedata"
+DB_HOST = os.environ.get("DB_HOST", "localhost")
+DB_PORT = os.environ.get("DB_PORT", "5432")
+DB_NAME = os.environ.get("DB_NAME", "earthquakedb")
+DB_USER = os.environ.get("DB_USER", "earthquake")
+DB_PASS = os.environ.get("DB_PASSWORD", "quakedata")
 
 # Function to connect to PostgreSQL
 @st.cache_resource
