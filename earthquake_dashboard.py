@@ -48,7 +48,7 @@ def get_recent_earthquakes(conn, hours=24, min_magnitude=0):
     FROM 
         earthquakes
     WHERE 
-        time >= NOW() - INTERVAL '%s hours'
+        time::timestamp >= NOW() - INTERVAL '%s hours'
         AND magnitude >= %s
         AND action != 'delete'
     ORDER BY 

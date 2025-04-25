@@ -1243,3 +1243,671 @@
 2025-04-25 01:16:50,232 - earthquake-loader - INFO - LOADED | 20250425_0000013 | mag:4.6 | region:NEW BRITAIN REGION, P.N.G.
 2025-04-25 01:24:20,980 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000014, Magnitude: 2.1, Region: WESTERN TURKEY
 2025-04-25 01:24:21,001 - earthquake-loader - INFO - LOADED | 20250425_0000014 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 01:28:22,237 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000015, Magnitude: 3.5, Region: COQUIMBO, CHILE
+2025-04-25 01:28:22,255 - earthquake-loader - INFO - LOADED | 20250425_0000015 | mag:3.5 | region:COQUIMBO, CHILE
+2025-04-25 01:34:34,336 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000016, Magnitude: 2.5, Region: ANTOFAGASTA, CHILE
+2025-04-25 01:34:34,358 - earthquake-loader - INFO - LOADED | 20250425_0000016 | mag:2.5 | region:ANTOFAGASTA, CHILE
+2025-04-25 01:37:51,786 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000017, Magnitude: 2.6, Region: WESTERN TURKEY
+2025-04-25 01:37:51,801 - earthquake-loader - INFO - LOADED | 20250425_0000017 | mag:2.6 | region:WESTERN TURKEY
+2025-04-25 01:39:15,834 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000018, Magnitude: 4.2, Region: ANDREANOF ISLANDS, ALEUTIAN IS.
+2025-04-25 01:39:15,848 - earthquake-loader - INFO - LOADED | 20250425_0000018 | mag:4.2 | region:ANDREANOF ISLANDS, ALEUTIAN IS.
+2025-04-25 01:42:39,417 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000019, Magnitude: 3.6, Region: LUZON, PHILIPPINES
+2025-04-25 01:42:39,435 - earthquake-loader - INFO - LOADED | 20250425_0000019 | mag:3.6 | region:LUZON, PHILIPPINES
+2025-04-25 01:44:33,453 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000020, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 01:44:33,472 - earthquake-loader - INFO - LOADED | 20250425_0000020 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 01:49:21,847 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000021, Magnitude: 3.0, Region: SUMBAWA REGION, INDONESIA
+2025-04-25 01:49:21,867 - earthquake-loader - INFO - LOADED | 20250425_0000021 | mag:3.0 | region:SUMBAWA REGION, INDONESIA
+2025-04-25 01:54:10,022 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000291, Magnitude: 2.5, Region: ISLAND OF HAWAII, HAWAII
+2025-04-25 01:54:10,031 - earthquake-loader - INFO - LOADED | 20250424_0000291 | mag:2.5 | region:ISLAND OF HAWAII, HAWAII
+2025-04-25 01:55:19,141 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000022, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 01:55:19,160 - earthquake-loader - INFO - LOADED | 20250425_0000022 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 01:57:40,655 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000023, Magnitude: 2.3, Region: ALBANIA
+2025-04-25 01:57:40,671 - earthquake-loader - INFO - LOADED | 20250425_0000023 | mag:2.3 | region:ALBANIA
+2025-04-25 02:00:50,872 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000326, Magnitude: 3.3, Region: OFFSHORE OAXACA, MEXICO
+2025-04-25 02:00:50,891 - earthquake-loader - INFO - LOADED | 20250424_0000326 | mag:3.3 | region:OFFSHORE OAXACA, MEXICO
+2025-04-25 02:00:51,346 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000327, Magnitude: 3.3, Region: MICHOACAN, MEXICO
+2025-04-25 02:00:51,362 - earthquake-loader - INFO - LOADED | 20250424_0000327 | mag:3.3 | region:MICHOACAN, MEXICO
+2025-04-25 02:00:51,973 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000328, Magnitude: 3.1, Region: OFFSHORE GUERRERO, MEXICO
+2025-04-25 02:00:51,989 - earthquake-loader - INFO - LOADED | 20250424_0000328 | mag:3.1 | region:OFFSHORE GUERRERO, MEXICO
+2025-04-25 02:00:54,414 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000329, Magnitude: 3.8, Region: OFF COAST OF CHIAPAS, MEXICO
+2025-04-25 02:00:54,430 - earthquake-loader - INFO - LOADED | 20250424_0000329 | mag:3.8 | region:OFF COAST OF CHIAPAS, MEXICO
+2025-04-25 02:00:54,432 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000330, Magnitude: 3.2, Region: GULF OF CALIFORNIA
+2025-04-25 02:00:54,438 - earthquake-loader - INFO - LOADED | 20250424_0000330 | mag:3.2 | region:GULF OF CALIFORNIA
+2025-04-25 02:00:55,728 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000331, Magnitude: 3.1, Region: OAXACA, MEXICO
+2025-04-25 02:00:55,744 - earthquake-loader - INFO - LOADED | 20250424_0000331 | mag:3.1 | region:OAXACA, MEXICO
+2025-04-25 02:00:56,554 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000332, Magnitude: 3.2, Region: GULF OF CALIFORNIA
+2025-04-25 02:00:56,572 - earthquake-loader - INFO - LOADED | 20250424_0000332 | mag:3.2 | region:GULF OF CALIFORNIA
+2025-04-25 02:00:57,847 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000333, Magnitude: 3.0, Region: GUERRERO, MEXICO
+2025-04-25 02:00:57,867 - earthquake-loader - INFO - LOADED | 20250424_0000333 | mag:3.0 | region:GUERRERO, MEXICO
+2025-04-25 02:00:58,701 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000334, Magnitude: 3.6, Region: PUEBLA, MEXICO
+2025-04-25 02:00:58,721 - earthquake-loader - INFO - LOADED | 20250424_0000334 | mag:3.6 | region:PUEBLA, MEXICO
+2025-04-25 02:01:00,135 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000335, Magnitude: 3.2, Region: JALISCO, MEXICO
+2025-04-25 02:01:00,155 - earthquake-loader - INFO - LOADED | 20250424_0000335 | mag:3.2 | region:JALISCO, MEXICO
+2025-04-25 02:01:01,098 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000336, Magnitude: 3.5, Region: OFFSHORE CHIAPAS, MEXICO
+2025-04-25 02:01:01,107 - earthquake-loader - INFO - LOADED | 20250424_0000336 | mag:3.5 | region:OFFSHORE CHIAPAS, MEXICO
+2025-04-25 02:01:04,440 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000337, Magnitude: 3.6, Region: OFFSHORE OAXACA, MEXICO
+2025-04-25 02:01:04,458 - earthquake-loader - INFO - LOADED | 20250424_0000337 | mag:3.6 | region:OFFSHORE OAXACA, MEXICO
+2025-04-25 02:01:04,462 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000338, Magnitude: 3.5, Region: OAXACA, MEXICO
+2025-04-25 02:01:04,472 - earthquake-loader - INFO - LOADED | 20250424_0000338 | mag:3.5 | region:OAXACA, MEXICO
+2025-04-25 02:08:49,803 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000024, Magnitude: 2.5, Region: OFFSHORE ATACAMA, CHILE
+2025-04-25 02:08:49,821 - earthquake-loader - INFO - LOADED | 20250425_0000024 | mag:2.5 | region:OFFSHORE ATACAMA, CHILE
+2025-04-25 02:12:11,794 - earthquake-loader - INFO - Processing earthquake - ID: 20250410_0000245, Magnitude: 3.5, Region: ANDREANOF ISLANDS, ALEUTIAN IS.
+2025-04-25 02:12:11,811 - earthquake-loader - INFO - LOADED | 20250410_0000245 | mag:3.5 | region:ANDREANOF ISLANDS, ALEUTIAN IS.
+2025-04-25 02:12:29,723 - earthquake-loader - INFO - Processing earthquake - ID: 20250410_0000238, Magnitude: 3.2, Region: KENAI PENINSULA, ALASKA
+2025-04-25 02:12:29,743 - earthquake-loader - INFO - LOADED | 20250410_0000238 | mag:3.2 | region:KENAI PENINSULA, ALASKA
+2025-04-25 02:15:42,798 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000025, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 02:15:42,817 - earthquake-loader - INFO - LOADED | 20250425_0000025 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 02:18:56,835 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000026, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 02:18:56,853 - earthquake-loader - INFO - LOADED | 20250425_0000026 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 02:19:25,037 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000027, Magnitude: 2.4, Region: ALBANIA
+2025-04-25 02:19:25,056 - earthquake-loader - INFO - LOADED | 20250425_0000027 | mag:2.4 | region:ALBANIA
+2025-04-25 02:22:14,104 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000028, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 02:22:14,119 - earthquake-loader - INFO - LOADED | 20250425_0000028 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 02:37:20,140 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000285, Magnitude: 3.4, Region: ALBANIA
+2025-04-25 02:37:20,158 - earthquake-loader - INFO - LOADED | 20250424_0000285 | mag:3.4 | region:ALBANIA
+2025-04-25 02:37:56,392 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000029, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 02:37:56,411 - earthquake-loader - INFO - LOADED | 20250425_0000029 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 02:39:37,767 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000030, Magnitude: 0.9, Region: WESTERN TURKEY
+2025-04-25 02:39:37,785 - earthquake-loader - INFO - LOADED | 20250425_0000030 | mag:0.9 | region:WESTERN TURKEY
+2025-04-25 02:39:52,612 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000031, Magnitude: 3.4, Region: MONA PASSAGE, PUERTO RICO
+2025-04-25 02:39:52,628 - earthquake-loader - INFO - LOADED | 20250425_0000031 | mag:3.4 | region:MONA PASSAGE, PUERTO RICO
+2025-04-25 02:42:11,778 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000032, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 02:42:11,796 - earthquake-loader - INFO - LOADED | 20250425_0000032 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 02:42:59,088 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000033, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 02:42:59,107 - earthquake-loader - INFO - LOADED | 20250425_0000033 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 02:47:00,576 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000034, Magnitude: 1.6, Region: SPAIN
+2025-04-25 02:47:00,592 - earthquake-loader - INFO - LOADED | 20250425_0000034 | mag:1.6 | region:SPAIN
+2025-04-25 02:50:15,525 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000035, Magnitude: 1.5, Region: CENTRAL TURKEY
+2025-04-25 02:50:15,534 - earthquake-loader - INFO - LOADED | 20250425_0000035 | mag:1.5 | region:CENTRAL TURKEY
+2025-04-25 02:52:35,551 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000036, Magnitude: 1.4, Region: SWITZERLAND
+2025-04-25 02:52:35,567 - earthquake-loader - INFO - LOADED | 20250425_0000036 | mag:1.4 | region:SWITZERLAND
+2025-04-25 02:52:46,931 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000037, Magnitude: 1.0, Region: EASTERN TURKEY
+2025-04-25 02:52:46,950 - earthquake-loader - INFO - LOADED | 20250425_0000037 | mag:1.0 | region:EASTERN TURKEY
+2025-04-25 02:56:39,460 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000038, Magnitude: 3.1, Region: LEYTE, PHILIPPINES
+2025-04-25 02:56:39,479 - earthquake-loader - INFO - LOADED | 20250425_0000038 | mag:3.1 | region:LEYTE, PHILIPPINES
+2025-04-25 03:18:28,984 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000039, Magnitude: 2.0, Region: NORTHERN CALIFORNIA
+2025-04-25 03:18:28,999 - earthquake-loader - INFO - LOADED | 20250425_0000039 | mag:2.0 | region:NORTHERN CALIFORNIA
+2025-04-25 03:20:44,391 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000040, Magnitude: 2.5, Region: PUERTO RICO
+2025-04-25 03:20:44,409 - earthquake-loader - INFO - LOADED | 20250425_0000040 | mag:2.5 | region:PUERTO RICO
+2025-04-25 03:22:13,372 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000041, Magnitude: 2.5, Region: NEAR COAST OF NICARAGUA
+2025-04-25 03:22:13,388 - earthquake-loader - INFO - LOADED | 20250425_0000041 | mag:2.5 | region:NEAR COAST OF NICARAGUA
+2025-04-25 03:23:30,689 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000042, Magnitude: 3.1, Region: OFFSHORE VALPARAISO, CHILE
+2025-04-25 03:23:30,708 - earthquake-loader - INFO - LOADED | 20250425_0000042 | mag:3.1 | region:OFFSHORE VALPARAISO, CHILE
+2025-04-25 03:25:17,188 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000043, Magnitude: 2.5, Region: CRETE, GREECE
+2025-04-25 03:25:17,207 - earthquake-loader - INFO - LOADED | 20250425_0000043 | mag:2.5 | region:CRETE, GREECE
+2025-04-25 03:27:32,561 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000044, Magnitude: 0.8, Region: NORTHERN ITALY
+2025-04-25 03:27:32,580 - earthquake-loader - INFO - LOADED | 20250425_0000044 | mag:0.8 | region:NORTHERN ITALY
+2025-04-25 03:33:35,505 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000045, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 03:33:35,524 - earthquake-loader - INFO - LOADED | 20250425_0000045 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 03:37:27,099 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000046, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 03:37:27,117 - earthquake-loader - INFO - LOADED | 20250425_0000046 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 03:39:03,661 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000047, Magnitude: 2.2, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 03:39:03,680 - earthquake-loader - INFO - LOADED | 20250425_0000047 | mag:2.2 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 03:39:08,982 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000048, Magnitude: 2.4, Region: PUERTO RICO
+2025-04-25 03:39:08,996 - earthquake-loader - INFO - LOADED | 20250425_0000048 | mag:2.4 | region:PUERTO RICO
+2025-04-25 03:40:57,529 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000049, Magnitude: 1.5, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 03:40:57,535 - earthquake-loader - INFO - LOADED | 20250425_0000049 | mag:1.5 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 03:47:47,006 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000050, Magnitude: 2.1, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 03:47:47,030 - earthquake-loader - INFO - LOADED | 20250425_0000050 | mag:2.1 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 03:51:14,182 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000051, Magnitude: 2.5, Region: OFFSHORE VALPARAISO, CHILE
+2025-04-25 03:51:14,198 - earthquake-loader - INFO - LOADED | 20250425_0000051 | mag:2.5 | region:OFFSHORE VALPARAISO, CHILE
+2025-04-25 03:56:23,335 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000052, Magnitude: 2.5, Region: SULAWESI, INDONESIA
+2025-04-25 03:56:23,355 - earthquake-loader - INFO - LOADED | 20250425_0000052 | mag:2.5 | region:SULAWESI, INDONESIA
+2025-04-25 03:56:40,759 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000053, Magnitude: 4.4, Region: SIBUYAN SEA, PHILIPPINES
+2025-04-25 03:56:40,775 - earthquake-loader - INFO - LOADED | 20250425_0000053 | mag:4.4 | region:SIBUYAN SEA, PHILIPPINES
+2025-04-25 04:06:25,964 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000054, Magnitude: 3.0, Region: WESTERN TURKEY
+2025-04-25 04:06:25,980 - earthquake-loader - INFO - LOADED | 20250425_0000054 | mag:3.0 | region:WESTERN TURKEY
+2025-04-25 04:15:47,727 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000055, Magnitude: 1.4, Region: CENTRAL TURKEY
+2025-04-25 04:15:47,745 - earthquake-loader - INFO - LOADED | 20250425_0000055 | mag:1.4 | region:CENTRAL TURKEY
+2025-04-25 04:21:39,826 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000056, Magnitude: 3.0, Region: PHILIPPINE ISLANDS REGION
+2025-04-25 04:21:39,845 - earthquake-loader - INFO - LOADED | 20250425_0000056 | mag:3.0 | region:PHILIPPINE ISLANDS REGION
+2025-04-25 04:21:51,206 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000057, Magnitude: 3.4, Region: SALTA, ARGENTINA
+2025-04-25 04:21:51,212 - earthquake-loader - INFO - LOADED | 20250425_0000057 | mag:3.4 | region:SALTA, ARGENTINA
+2025-04-25 04:28:45,869 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000058, Magnitude: 3.7, Region: IRAN-PAKISTAN BORDER REGION
+2025-04-25 04:28:45,887 - earthquake-loader - INFO - LOADED | 20250425_0000058 | mag:3.7 | region:IRAN-PAKISTAN BORDER REGION
+2025-04-25 04:29:01,839 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000059, Magnitude: 4.1, Region: SAN LUIS POTOSI, MEXICO
+2025-04-25 04:29:01,855 - earthquake-loader - INFO - LOADED | 20250425_0000059 | mag:4.1 | region:SAN LUIS POTOSI, MEXICO
+2025-04-25 04:30:08,925 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000060, Magnitude: 2.4, Region: OFFSHORE NORTHERN CALIFORNIA
+2025-04-25 04:30:08,943 - earthquake-loader - INFO - LOADED | 20250425_0000060 | mag:2.4 | region:OFFSHORE NORTHERN CALIFORNIA
+2025-04-25 04:30:16,351 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000061, Magnitude: 4.5, Region: WESTERN TURKEY
+2025-04-25 04:30:16,368 - earthquake-loader - INFO - LOADED | 20250425_0000061 | mag:4.5 | region:WESTERN TURKEY
+2025-04-25 04:34:10,691 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000062, Magnitude: 2.7, Region: CRETE, GREECE
+2025-04-25 04:34:10,711 - earthquake-loader - INFO - LOADED | 20250425_0000062 | mag:2.7 | region:CRETE, GREECE
+2025-04-25 04:35:30,468 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000063, Magnitude: 3.9, Region: WESTERN TURKEY
+2025-04-25 04:35:30,486 - earthquake-loader - INFO - LOADED | 20250425_0000063 | mag:3.9 | region:WESTERN TURKEY
+2025-04-25 04:37:44,193 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000064, Magnitude: 2.8, Region: OFFSHORE NORTHERN CALIFORNIA
+2025-04-25 04:37:44,212 - earthquake-loader - INFO - LOADED | 20250425_0000064 | mag:2.8 | region:OFFSHORE NORTHERN CALIFORNIA
+2025-04-25 04:41:39,185 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000065, Magnitude: 3.4, Region: PUERTO RICO REGION
+2025-04-25 04:41:39,195 - earthquake-loader - INFO - LOADED | 20250425_0000065 | mag:3.4 | region:PUERTO RICO REGION
+2025-04-25 04:42:19,796 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000066, Magnitude: 2.1, Region: WESTERN TURKEY
+2025-04-25 04:42:19,811 - earthquake-loader - INFO - LOADED | 20250425_0000066 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 04:42:30,240 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000067, Magnitude: 1.9, Region: CENTRAL TURKEY
+2025-04-25 04:42:30,254 - earthquake-loader - INFO - LOADED | 20250425_0000067 | mag:1.9 | region:CENTRAL TURKEY
+2025-04-25 04:43:01,224 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000068, Magnitude: 4.4, Region: POTOSI, BOLIVIA
+2025-04-25 04:43:01,242 - earthquake-loader - INFO - LOADED | 20250425_0000068 | mag:4.4 | region:POTOSI, BOLIVIA
+2025-04-25 04:43:25,406 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000069, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 04:43:25,421 - earthquake-loader - INFO - LOADED | 20250425_0000069 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 04:49:39,957 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000339, Magnitude: 3.0, Region: MINDANAO, PHILIPPINES
+2025-04-25 04:49:39,976 - earthquake-loader - INFO - LOADED | 20250424_0000339 | mag:3.0 | region:MINDANAO, PHILIPPINES
+2025-04-25 04:53:00,160 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000070, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 04:53:00,179 - earthquake-loader - INFO - LOADED | 20250425_0000070 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 04:55:09,973 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000071, Magnitude: 2.7, Region: SALTA, ARGENTINA
+2025-04-25 04:55:09,989 - earthquake-loader - INFO - LOADED | 20250425_0000071 | mag:2.7 | region:SALTA, ARGENTINA
+2025-04-25 04:55:26,084 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000072, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 04:55:26,101 - earthquake-loader - INFO - LOADED | 20250425_0000072 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 04:59:38,907 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000073, Magnitude: 0.8, Region: SWITZERLAND
+2025-04-25 04:59:38,926 - earthquake-loader - INFO - LOADED | 20250425_0000073 | mag:0.8 | region:SWITZERLAND
+2025-04-25 04:59:59,911 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000074, Magnitude: 2.6, Region: WESTERN TURKEY
+2025-04-25 04:59:59,930 - earthquake-loader - INFO - LOADED | 20250425_0000074 | mag:2.6 | region:WESTERN TURKEY
+2025-04-25 05:02:02,296 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000075, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 05:02:02,316 - earthquake-loader - INFO - LOADED | 20250425_0000075 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 05:23:12,052 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000076, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 05:23:12,071 - earthquake-loader - INFO - LOADED | 20250425_0000076 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 05:25:03,445 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000077, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 05:25:03,463 - earthquake-loader - INFO - LOADED | 20250425_0000077 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 05:28:34,902 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000078, Magnitude: 2.5, Region: ANDHRA PRADESH, INDIA
+2025-04-25 05:28:34,918 - earthquake-loader - INFO - LOADED | 20250425_0000078 | mag:2.5 | region:ANDHRA PRADESH, INDIA
+2025-04-25 05:30:38,398 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000079, Magnitude: 2.4, Region: WESTERN TURKEY
+2025-04-25 05:30:38,418 - earthquake-loader - INFO - LOADED | 20250425_0000079 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 05:31:02,358 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000080, Magnitude: 3.0, Region: DODECANESE IS.-TURKEY BORDER REG
+2025-04-25 05:31:02,377 - earthquake-loader - INFO - LOADED | 20250425_0000080 | mag:3.0 | region:DODECANESE IS.-TURKEY BORDER REG
+2025-04-25 05:31:37,994 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000081, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 05:31:38,013 - earthquake-loader - INFO - LOADED | 20250425_0000081 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 05:31:52,022 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000082, Magnitude: 1.6, Region: STRAIT OF GIBRALTAR
+2025-04-25 05:31:52,041 - earthquake-loader - INFO - LOADED | 20250425_0000082 | mag:1.6 | region:STRAIT OF GIBRALTAR
+2025-04-25 05:31:52,041 - earthquake-loader - INFO - Progress: 100 messages processed, 0 errors
+2025-04-25 05:36:20,121 - earthquake-loader - INFO - Processing earthquake - ID: 20250418_0000137, Magnitude: 2.2, Region: NORTHERN CALIFORNIA
+2025-04-25 05:36:20,140 - earthquake-loader - INFO - LOADED | 20250418_0000137 | mag:2.2 | region:NORTHERN CALIFORNIA
+2025-04-25 05:44:35,824 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000083, Magnitude: 3.6, Region: WESTERN TURKEY
+2025-04-25 05:44:35,840 - earthquake-loader - INFO - LOADED | 20250425_0000083 | mag:3.6 | region:WESTERN TURKEY
+2025-04-25 05:45:24,467 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000522, Magnitude: 1.6, Region: CYPRUS REGION
+2025-04-25 05:45:24,486 - earthquake-loader - INFO - LOADED | 20250423_0000522 | mag:1.6 | region:CYPRUS REGION
+2025-04-25 05:45:35,679 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000084, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 05:45:35,688 - earthquake-loader - INFO - LOADED | 20250425_0000084 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 05:46:23,720 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000085, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 05:46:23,739 - earthquake-loader - INFO - LOADED | 20250425_0000085 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 05:47:16,103 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000086, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 05:47:16,111 - earthquake-loader - INFO - LOADED | 20250425_0000086 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 06:00:50,058 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000087, Magnitude: 3.4, Region: SALTA, ARGENTINA
+2025-04-25 06:00:50,077 - earthquake-loader - INFO - LOADED | 20250425_0000087 | mag:3.4 | region:SALTA, ARGENTINA
+2025-04-25 06:06:34,742 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000088, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 06:06:34,757 - earthquake-loader - INFO - LOADED | 20250425_0000088 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 06:11:17,249 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000089, Magnitude: 1.8, Region: WESTERN TURKEY
+2025-04-25 06:11:17,268 - earthquake-loader - INFO - LOADED | 20250425_0000089 | mag:1.8 | region:WESTERN TURKEY
+2025-04-25 06:11:36,111 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000090, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 06:11:36,130 - earthquake-loader - INFO - LOADED | 20250425_0000090 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 06:14:23,331 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000091, Magnitude: 3.9, Region: NEPAL
+2025-04-25 06:14:23,350 - earthquake-loader - INFO - LOADED | 20250425_0000091 | mag:3.9 | region:NEPAL
+2025-04-25 06:19:41,839 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000092, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 06:19:41,859 - earthquake-loader - INFO - LOADED | 20250425_0000092 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 06:22:35,874 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000093, Magnitude: 3.2, Region: BULGARIA
+2025-04-25 06:22:35,891 - earthquake-loader - INFO - LOADED | 20250425_0000093 | mag:3.2 | region:BULGARIA
+2025-04-25 06:28:26,098 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000340, Magnitude: 0.5, Region: GERMANY
+2025-04-25 06:28:26,117 - earthquake-loader - INFO - LOADED | 20250424_0000340 | mag:0.5 | region:GERMANY
+2025-04-25 06:31:25,495 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000094, Magnitude: 1.9, Region: SPAIN
+2025-04-25 06:31:25,517 - earthquake-loader - INFO - LOADED | 20250425_0000094 | mag:1.9 | region:SPAIN
+2025-04-25 06:34:16,184 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000095, Magnitude: 1.7, Region: BALEARIC ISLANDS, SPAIN
+2025-04-25 06:34:16,202 - earthquake-loader - INFO - LOADED | 20250425_0000095 | mag:1.7 | region:BALEARIC ISLANDS, SPAIN
+2025-04-25 06:36:21,946 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000096, Magnitude: 2.2, Region: WESTERN TURKEY
+2025-04-25 06:36:21,955 - earthquake-loader - INFO - LOADED | 20250425_0000096 | mag:2.2 | region:WESTERN TURKEY
+2025-04-25 06:39:39,422 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000212, Magnitude: 4.1, Region: VALPARAISO, CHILE
+2025-04-25 06:39:39,444 - earthquake-loader - INFO - LOADED | 20250424_0000212 | mag:4.1 | region:VALPARAISO, CHILE
+2025-04-25 06:40:35,570 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000097, Magnitude: 1.8, Region: WESTERN TURKEY
+2025-04-25 06:40:35,587 - earthquake-loader - INFO - LOADED | 20250425_0000097 | mag:1.8 | region:WESTERN TURKEY
+2025-04-25 06:42:39,182 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000098, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 06:42:39,198 - earthquake-loader - INFO - LOADED | 20250425_0000098 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 06:48:33,345 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000099, Magnitude: 1.7, Region: SPAIN
+2025-04-25 06:48:33,361 - earthquake-loader - INFO - LOADED | 20250425_0000099 | mag:1.7 | region:SPAIN
+2025-04-25 06:49:06,205 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000100, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 06:49:06,220 - earthquake-loader - INFO - LOADED | 20250425_0000100 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 06:49:33,939 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000101, Magnitude: 2.5, Region: BLACK SEA
+2025-04-25 06:49:33,958 - earthquake-loader - INFO - LOADED | 20250425_0000101 | mag:2.5 | region:BLACK SEA
+2025-04-25 06:50:23,157 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000102, Magnitude: 2.7, Region: SOUTHERN ITALY
+2025-04-25 06:50:23,175 - earthquake-loader - INFO - LOADED | 20250425_0000102 | mag:2.7 | region:SOUTHERN ITALY
+2025-04-25 06:51:58,983 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000103, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 06:51:58,990 - earthquake-loader - INFO - LOADED | 20250425_0000103 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 06:52:08,435 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000217, Magnitude: 4.4, Region: KODIAK ISLAND REGION, ALASKA
+2025-04-25 06:52:08,454 - earthquake-loader - INFO - LOADED | 20250424_0000217 | mag:4.4 | region:KODIAK ISLAND REGION, ALASKA
+2025-04-25 06:52:22,561 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000215, Magnitude: 2.2, Region: WESTERN TURKEY
+2025-04-25 06:52:22,580 - earthquake-loader - INFO - LOADED | 20250424_0000215 | mag:2.2 | region:WESTERN TURKEY
+2025-04-25 06:52:34,236 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000226, Magnitude: 2.2, Region: WESTERN TURKEY
+2025-04-25 06:52:34,254 - earthquake-loader - INFO - LOADED | 20250424_0000226 | mag:2.2 | region:WESTERN TURKEY
+2025-04-25 06:52:47,046 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000225, Magnitude: 3.5, Region: WESTERN TURKEY
+2025-04-25 06:52:47,062 - earthquake-loader - INFO - LOADED | 20250424_0000225 | mag:3.5 | region:WESTERN TURKEY
+2025-04-25 06:53:00,634 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000232, Magnitude: 3.6, Region: CENTRAL TURKEY
+2025-04-25 06:53:00,650 - earthquake-loader - INFO - LOADED | 20250424_0000232 | mag:3.6 | region:CENTRAL TURKEY
+2025-04-25 06:53:26,160 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000231, Magnitude: 2.9, Region: BOSNIA AND HERZEGOVINA
+2025-04-25 06:53:26,177 - earthquake-loader - INFO - LOADED | 20250424_0000231 | mag:2.9 | region:BOSNIA AND HERZEGOVINA
+2025-04-25 06:53:58,075 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000240, Magnitude: 2.4, Region: DODECANESE IS.-TURKEY BORDER REG
+2025-04-25 06:53:58,094 - earthquake-loader - INFO - LOADED | 20250424_0000240 | mag:2.4 | region:DODECANESE IS.-TURKEY BORDER REG
+2025-04-25 06:54:20,011 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000238, Magnitude: 3.1, Region: CZECH REPUBLIC
+2025-04-25 06:54:20,028 - earthquake-loader - INFO - LOADED | 20250424_0000238 | mag:3.1 | region:CZECH REPUBLIC
+2025-04-25 06:54:34,789 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000244, Magnitude: 3.0, Region: WESTERN TURKEY
+2025-04-25 06:54:34,805 - earthquake-loader - INFO - LOADED | 20250424_0000244 | mag:3.0 | region:WESTERN TURKEY
+2025-04-25 06:54:48,590 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000258, Magnitude: 4.4, Region: SOUTH OF FIJI ISLANDS
+2025-04-25 06:54:48,603 - earthquake-loader - INFO - LOADED | 20250424_0000258 | mag:4.4 | region:SOUTH OF FIJI ISLANDS
+2025-04-25 06:55:23,913 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000255, Magnitude: 2.4, Region: WESTERN TURKEY
+2025-04-25 06:55:23,933 - earthquake-loader - INFO - LOADED | 20250424_0000255 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 06:55:38,378 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000256, Magnitude: 3.4, Region: WESTERN TURKEY
+2025-04-25 06:55:38,394 - earthquake-loader - INFO - LOADED | 20250424_0000256 | mag:3.4 | region:WESTERN TURKEY
+2025-04-25 06:56:11,225 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000257, Magnitude: 3.2, Region: WESTERN TURKEY
+2025-04-25 06:56:11,244 - earthquake-loader - INFO - LOADED | 20250424_0000257 | mag:3.2 | region:WESTERN TURKEY
+2025-04-25 06:56:34,874 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000286, Magnitude: 2.4, Region: BULGARIA
+2025-04-25 06:56:34,893 - earthquake-loader - INFO - LOADED | 20250424_0000286 | mag:2.4 | region:BULGARIA
+2025-04-25 06:57:04,674 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000278, Magnitude: 4.8, Region: SOUTH OF FIJI ISLANDS
+2025-04-25 06:57:04,693 - earthquake-loader - INFO - LOADED | 20250424_0000278 | mag:4.8 | region:SOUTH OF FIJI ISLANDS
+2025-04-25 06:57:16,860 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000281, Magnitude: 3.1, Region: BULGARIA
+2025-04-25 06:57:16,879 - earthquake-loader - INFO - LOADED | 20250424_0000281 | mag:3.1 | region:BULGARIA
+2025-04-25 06:57:33,962 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000294, Magnitude: 2.2, Region: BULGARIA
+2025-04-25 06:57:33,983 - earthquake-loader - INFO - LOADED | 20250424_0000294 | mag:2.2 | region:BULGARIA
+2025-04-25 06:57:47,688 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000314, Magnitude: 4.2, Region: TAJIKISTAN
+2025-04-25 06:57:47,707 - earthquake-loader - INFO - LOADED | 20250424_0000314 | mag:4.2 | region:TAJIKISTAN
+2025-04-25 06:59:03,962 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000303, Magnitude: 4.9, Region: NEW BRITAIN REGION, P.N.G.
+2025-04-25 06:59:03,981 - earthquake-loader - INFO - LOADED | 20250424_0000303 | mag:4.9 | region:NEW BRITAIN REGION, P.N.G.
+2025-04-25 06:59:17,690 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000304, Magnitude: 2.7, Region: WESTERN TURKEY
+2025-04-25 06:59:17,706 - earthquake-loader - INFO - LOADED | 20250424_0000304 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 06:59:29,642 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000309, Magnitude: 2.4, Region: WESTERN TURKEY
+2025-04-25 06:59:29,661 - earthquake-loader - INFO - LOADED | 20250424_0000309 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 06:59:50,157 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000312, Magnitude: 5.2, Region: SOUTHEAST INDIAN RIDGE
+2025-04-25 06:59:50,175 - earthquake-loader - INFO - LOADED | 20250424_0000312 | mag:5.2 | region:SOUTHEAST INDIAN RIDGE
+2025-04-25 07:00:02,135 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000323, Magnitude: 2.8, Region: WESTERN TURKEY
+2025-04-25 07:00:02,155 - earthquake-loader - INFO - LOADED | 20250424_0000323 | mag:2.8 | region:WESTERN TURKEY
+2025-04-25 07:00:14,209 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000324, Magnitude: 3.0, Region: WESTERN TURKEY
+2025-04-25 07:00:14,225 - earthquake-loader - INFO - LOADED | 20250424_0000324 | mag:3.0 | region:WESTERN TURKEY
+2025-04-25 07:03:09,296 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000104, Magnitude: 4.5, Region: MINAHASA, SULAWESI, INDONESIA
+2025-04-25 07:03:09,312 - earthquake-loader - INFO - LOADED | 20250425_0000104 | mag:4.5 | region:MINAHASA, SULAWESI, INDONESIA
+2025-04-25 07:12:22,203 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000105, Magnitude: 1.3, Region: EASTERN TURKEY
+2025-04-25 07:12:22,212 - earthquake-loader - INFO - LOADED | 20250425_0000105 | mag:1.3 | region:EASTERN TURKEY
+2025-04-25 07:14:19,386 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000106, Magnitude: 2.1, Region: CENTRAL ITALY
+2025-04-25 07:14:19,405 - earthquake-loader - INFO - LOADED | 20250425_0000106 | mag:2.1 | region:CENTRAL ITALY
+2025-04-25 07:19:11,410 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000107, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 07:19:11,429 - earthquake-loader - INFO - LOADED | 20250425_0000107 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 07:21:57,988 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000251, Magnitude: 2.8, Region: ISLAND OF HAWAII, HAWAII
+2025-04-25 07:21:57,998 - earthquake-loader - INFO - LOADED | 20250424_0000251 | mag:2.8 | region:ISLAND OF HAWAII, HAWAII
+2025-04-25 07:28:55,674 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000108, Magnitude: 4.6, Region: WESTERN TURKEY
+2025-04-25 07:28:55,693 - earthquake-loader - INFO - LOADED | 20250425_0000108 | mag:4.6 | region:WESTERN TURKEY
+2025-04-25 07:36:45,944 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000109, Magnitude: 2.7, Region: BULGARIA
+2025-04-25 07:36:45,963 - earthquake-loader - INFO - LOADED | 20250425_0000109 | mag:2.7 | region:BULGARIA
+2025-04-25 07:38:41,844 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000110, Magnitude: 2.8, Region: WESTERN TURKEY
+2025-04-25 07:38:41,864 - earthquake-loader - INFO - LOADED | 20250425_0000110 | mag:2.8 | region:WESTERN TURKEY
+2025-04-25 07:40:43,800 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000111, Magnitude: 2.7, Region: WESTERN TURKEY
+2025-04-25 07:40:43,809 - earthquake-loader - INFO - LOADED | 20250425_0000111 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 07:42:40,816 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000112, Magnitude: 3.5, Region: MYANMAR
+2025-04-25 07:42:40,833 - earthquake-loader - INFO - LOADED | 20250425_0000112 | mag:3.5 | region:MYANMAR
+2025-04-25 07:44:54,859 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000113, Magnitude: 2.7, Region: NEW MEXICO
+2025-04-25 07:44:54,880 - earthquake-loader - INFO - LOADED | 20250425_0000113 | mag:2.7 | region:NEW MEXICO
+2025-04-25 07:48:07,473 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000114, Magnitude: 2.1, Region: WESTERN TURKEY
+2025-04-25 07:48:07,490 - earthquake-loader - INFO - LOADED | 20250425_0000114 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 07:53:41,303 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000115, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 07:53:41,322 - earthquake-loader - INFO - LOADED | 20250425_0000115 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 07:55:28,408 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000116, Magnitude: 2.4, Region: PUERTO RICO
+2025-04-25 07:55:28,424 - earthquake-loader - INFO - LOADED | 20250425_0000116 | mag:2.4 | region:PUERTO RICO
+2025-04-25 07:58:21,364 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000117, Magnitude: 4.8, Region: SOUTH OF PANAMA
+2025-04-25 07:58:21,383 - earthquake-loader - INFO - LOADED | 20250425_0000117 | mag:4.8 | region:SOUTH OF PANAMA
+2025-04-25 08:00:02,339 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000118, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 08:00:02,357 - earthquake-loader - INFO - LOADED | 20250425_0000118 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 08:00:21,994 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000119, Magnitude: 3.3, Region: MINDANAO, PHILIPPINES
+2025-04-25 08:00:22,010 - earthquake-loader - INFO - LOADED | 20250425_0000119 | mag:3.3 | region:MINDANAO, PHILIPPINES
+2025-04-25 08:02:04,101 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000120, Magnitude: 2.2, Region: WESTERN TURKEY
+2025-04-25 08:02:04,120 - earthquake-loader - INFO - LOADED | 20250425_0000120 | mag:2.2 | region:WESTERN TURKEY
+2025-04-25 08:03:18,794 - earthquake-loader - INFO - Processing earthquake - ID: 20250327_0000301, Magnitude: 2.4, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 08:03:18,810 - earthquake-loader - INFO - LOADED | 20250327_0000301 | mag:2.4 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 08:04:56,262 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000121, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 08:04:56,278 - earthquake-loader - INFO - LOADED | 20250425_0000121 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 08:08:33,414 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000122, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 08:08:33,433 - earthquake-loader - INFO - LOADED | 20250425_0000122 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 08:10:11,308 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000123, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 08:10:11,317 - earthquake-loader - INFO - LOADED | 20250425_0000123 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 08:11:15,822 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000124, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 08:11:15,841 - earthquake-loader - INFO - LOADED | 20250425_0000124 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 08:12:06,817 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000125, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 08:12:06,837 - earthquake-loader - INFO - LOADED | 20250425_0000125 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 08:12:18,054 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000126, Magnitude: 1.0, Region: WESTERN TURKEY
+2025-04-25 08:12:18,074 - earthquake-loader - INFO - LOADED | 20250425_0000126 | mag:1.0 | region:WESTERN TURKEY
+2025-04-25 08:13:10,404 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000127, Magnitude: 3.5, Region: BULGARIA
+2025-04-25 08:13:10,420 - earthquake-loader - INFO - LOADED | 20250425_0000127 | mag:3.5 | region:BULGARIA
+2025-04-25 08:15:10,993 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000128, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 08:15:11,010 - earthquake-loader - INFO - LOADED | 20250425_0000128 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 08:16:55,893 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000129, Magnitude: 2.7, Region: WESTERN TURKEY
+2025-04-25 08:16:55,911 - earthquake-loader - INFO - LOADED | 20250425_0000129 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 08:19:18,333 - earthquake-loader - INFO - Processing earthquake - ID: 20250402_0000131, Magnitude: 2.5, Region: IONIAN SEA
+2025-04-25 08:19:18,354 - earthquake-loader - INFO - LOADED | 20250402_0000131 | mag:2.5 | region:IONIAN SEA
+2025-04-25 08:19:51,655 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000130, Magnitude: 2.6, Region: BULGARIA
+2025-04-25 08:19:51,674 - earthquake-loader - INFO - LOADED | 20250425_0000130 | mag:2.6 | region:BULGARIA
+2025-04-25 08:20:03,011 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000131, Magnitude: 2.5, Region: WESTERN TURKEY
+2025-04-25 08:20:03,027 - earthquake-loader - INFO - LOADED | 20250425_0000131 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 08:21:24,219 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000132, Magnitude: 2.6, Region: BALI REGION, INDONESIA
+2025-04-25 08:21:24,238 - earthquake-loader - INFO - LOADED | 20250425_0000132 | mag:2.6 | region:BALI REGION, INDONESIA
+2025-04-25 08:22:28,636 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000133, Magnitude: 3.1, Region: WESTERN TEXAS
+2025-04-25 08:22:28,645 - earthquake-loader - INFO - LOADED | 20250425_0000133 | mag:3.1 | region:WESTERN TEXAS
+2025-04-25 08:28:55,460 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000134, Magnitude: 4.8, Region: RAT ISLANDS, ALEUTIAN ISLANDS
+2025-04-25 08:28:55,476 - earthquake-loader - INFO - LOADED | 20250425_0000134 | mag:4.8 | region:RAT ISLANDS, ALEUTIAN ISLANDS
+2025-04-25 08:34:59,116 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000135, Magnitude: 2.4, Region: WESTERN TURKEY
+2025-04-25 08:34:59,132 - earthquake-loader - INFO - LOADED | 20250425_0000135 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 08:38:16,513 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000136, Magnitude: 3.0, Region: OFFSHORE O'HIGGINS, CHILE
+2025-04-25 08:38:16,533 - earthquake-loader - INFO - LOADED | 20250425_0000136 | mag:3.0 | region:OFFSHORE O'HIGGINS, CHILE
+2025-04-25 08:40:30,065 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000137, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 08:40:30,074 - earthquake-loader - INFO - LOADED | 20250425_0000137 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 08:41:32,409 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000138, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 08:41:32,428 - earthquake-loader - INFO - LOADED | 20250425_0000138 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 08:42:41,223 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000139, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 08:42:41,239 - earthquake-loader - INFO - LOADED | 20250425_0000139 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 08:43:33,555 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000140, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 08:43:33,561 - earthquake-loader - INFO - LOADED | 20250425_0000140 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 08:49:16,827 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000141, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 08:49:16,846 - earthquake-loader - INFO - LOADED | 20250425_0000141 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 08:49:25,984 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000142, Magnitude: 2.7, Region: NORTHERN SUMATRA, INDONESIA
+2025-04-25 08:49:26,002 - earthquake-loader - INFO - LOADED | 20250425_0000142 | mag:2.7 | region:NORTHERN SUMATRA, INDONESIA
+2025-04-25 08:52:22,549 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000143, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 08:52:22,568 - earthquake-loader - INFO - LOADED | 20250425_0000143 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 08:55:39,843 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000144, Magnitude: 2.8, Region: WESTERN TURKEY
+2025-04-25 08:55:39,862 - earthquake-loader - INFO - LOADED | 20250425_0000144 | mag:2.8 | region:WESTERN TURKEY
+2025-04-25 08:56:24,827 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000145, Magnitude: 4.0, Region: MOLUCCA SEA
+2025-04-25 08:56:24,846 - earthquake-loader - INFO - LOADED | 20250425_0000145 | mag:4.0 | region:MOLUCCA SEA
+2025-04-25 08:59:45,736 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000146, Magnitude: 2.5, Region: WESTERN TURKEY
+2025-04-25 08:59:45,756 - earthquake-loader - INFO - LOADED | 20250425_0000146 | mag:2.5 | region:WESTERN TURKEY
+2025-04-25 09:00:22,395 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000147, Magnitude: 2.6, Region: NORTHERN SUMATRA, INDONESIA
+2025-04-25 09:00:22,412 - earthquake-loader - INFO - LOADED | 20250425_0000147 | mag:2.6 | region:NORTHERN SUMATRA, INDONESIA
+2025-04-25 09:00:33,464 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000148, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 09:00:33,483 - earthquake-loader - INFO - LOADED | 20250425_0000148 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 09:01:56,556 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000149, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 09:01:56,571 - earthquake-loader - INFO - LOADED | 20250425_0000149 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 09:02:10,736 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000150, Magnitude: 3.1, Region: CRETE, GREECE
+2025-04-25 09:02:10,755 - earthquake-loader - INFO - LOADED | 20250425_0000150 | mag:3.1 | region:CRETE, GREECE
+2025-04-25 09:03:11,561 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000151, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 09:03:11,581 - earthquake-loader - INFO - LOADED | 20250425_0000151 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 09:03:11,581 - earthquake-loader - INFO - Progress: 200 messages processed, 0 errors
+2025-04-25 09:14:22,397 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000152, Magnitude: 2.5, Region: JAVA, INDONESIA
+2025-04-25 09:14:22,403 - earthquake-loader - INFO - LOADED | 20250425_0000152 | mag:2.5 | region:JAVA, INDONESIA
+2025-04-25 09:17:48,755 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000153, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 09:17:48,771 - earthquake-loader - INFO - LOADED | 20250425_0000153 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 09:21:16,290 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000154, Magnitude: 1.7, Region: STRAIT OF GIBRALTAR
+2025-04-25 09:21:16,309 - earthquake-loader - INFO - LOADED | 20250425_0000154 | mag:1.7 | region:STRAIT OF GIBRALTAR
+2025-04-25 09:24:33,248 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000155, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 09:24:33,265 - earthquake-loader - INFO - LOADED | 20250425_0000155 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 09:25:51,851 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000156, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 09:25:51,871 - earthquake-loader - INFO - LOADED | 20250425_0000156 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 09:26:51,570 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000157, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 09:26:51,589 - earthquake-loader - INFO - LOADED | 20250425_0000157 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 09:27:27,835 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000158, Magnitude: 2.4, Region: WESTERN TURKEY
+2025-04-25 09:27:27,854 - earthquake-loader - INFO - LOADED | 20250425_0000158 | mag:2.4 | region:WESTERN TURKEY
+2025-04-25 09:28:08,864 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000159, Magnitude: 1.0, Region: WESTERN TURKEY
+2025-04-25 09:28:08,886 - earthquake-loader - INFO - LOADED | 20250425_0000159 | mag:1.0 | region:WESTERN TURKEY
+2025-04-25 09:28:22,813 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000160, Magnitude: 2.9, Region: SULAWESI, INDONESIA
+2025-04-25 09:28:22,832 - earthquake-loader - INFO - LOADED | 20250425_0000160 | mag:2.9 | region:SULAWESI, INDONESIA
+2025-04-25 09:28:40,621 - earthquake-loader - INFO - Processing earthquake - ID: 20250420_0000128, Magnitude: 3.2, Region: MINDANAO, PHILIPPINES
+2025-04-25 09:28:40,631 - earthquake-loader - INFO - LOADED | 20250420_0000128 | mag:3.2 | region:MINDANAO, PHILIPPINES
+2025-04-25 09:28:49,525 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000341, Magnitude: 0.3, Region: GERMANY
+2025-04-25 09:28:49,541 - earthquake-loader - INFO - LOADED | 20250424_0000341 | mag:0.3 | region:GERMANY
+2025-04-25 09:30:26,182 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000161, Magnitude: 1.0, Region: WESTERN TURKEY
+2025-04-25 09:30:26,201 - earthquake-loader - INFO - LOADED | 20250425_0000161 | mag:1.0 | region:WESTERN TURKEY
+2025-04-25 09:32:36,126 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000162, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 09:32:36,145 - earthquake-loader - INFO - LOADED | 20250425_0000162 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 09:35:51,404 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000163, Magnitude: 3.2, Region: SAN JUAN, ARGENTINA
+2025-04-25 09:35:51,423 - earthquake-loader - INFO - LOADED | 20250425_0000163 | mag:3.2 | region:SAN JUAN, ARGENTINA
+2025-04-25 09:35:52,430 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000164, Magnitude: 3.1, Region: MENDOZA, ARGENTINA
+2025-04-25 09:35:52,449 - earthquake-loader - INFO - LOADED | 20250425_0000164 | mag:3.1 | region:MENDOZA, ARGENTINA
+2025-04-25 09:38:02,576 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000165, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 09:38:02,591 - earthquake-loader - INFO - LOADED | 20250425_0000165 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 09:39:58,302 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000166, Magnitude: 2.5, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 09:39:58,318 - earthquake-loader - INFO - LOADED | 20250425_0000166 | mag:2.5 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 09:41:15,093 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000167, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 09:41:15,112 - earthquake-loader - INFO - LOADED | 20250425_0000167 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 09:44:11,834 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000523, Magnitude: 2.7, Region: KODIAK ISLAND REGION, ALASKA
+2025-04-25 09:44:11,853 - earthquake-loader - INFO - LOADED | 20250423_0000523 | mag:2.7 | region:KODIAK ISLAND REGION, ALASKA
+2025-04-25 09:45:35,831 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000168, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 09:45:35,852 - earthquake-loader - INFO - LOADED | 20250425_0000168 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 09:49:21,875 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000169, Magnitude: 3.0, Region: SULAWESI, INDONESIA
+2025-04-25 09:49:21,892 - earthquake-loader - INFO - LOADED | 20250425_0000169 | mag:3.0 | region:SULAWESI, INDONESIA
+2025-04-25 09:56:10,377 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000170, Magnitude: 2.1, Region: FRANCE
+2025-04-25 09:56:10,392 - earthquake-loader - INFO - LOADED | 20250425_0000170 | mag:2.1 | region:FRANCE
+2025-04-25 09:56:47,257 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000171, Magnitude: 2.1, Region: BULGARIA
+2025-04-25 09:56:47,273 - earthquake-loader - INFO - LOADED | 20250425_0000171 | mag:2.1 | region:BULGARIA
+2025-04-25 09:57:51,042 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000172, Magnitude: 2.1, Region: WESTERN TURKEY
+2025-04-25 09:57:51,061 - earthquake-loader - INFO - LOADED | 20250425_0000172 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 09:59:45,319 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000173, Magnitude: 0.8, Region: WESTERN TURKEY
+2025-04-25 09:59:45,338 - earthquake-loader - INFO - LOADED | 20250425_0000173 | mag:0.8 | region:WESTERN TURKEY
+2025-04-25 10:03:18,722 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000174, Magnitude: 3.4, Region: PUERTO RICO REGION
+2025-04-25 10:03:18,741 - earthquake-loader - INFO - LOADED | 20250425_0000174 | mag:3.4 | region:PUERTO RICO REGION
+2025-04-25 10:07:10,557 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000175, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 10:07:10,575 - earthquake-loader - INFO - LOADED | 20250425_0000175 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 10:09:00,563 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000176, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 10:09:00,579 - earthquake-loader - INFO - LOADED | 20250425_0000176 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 10:13:32,716 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000177, Magnitude: 2.3, Region: WESTERN TURKEY
+2025-04-25 10:13:32,735 - earthquake-loader - INFO - LOADED | 20250425_0000177 | mag:2.3 | region:WESTERN TURKEY
+2025-04-25 10:20:46,959 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000178, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 10:20:46,979 - earthquake-loader - INFO - LOADED | 20250425_0000178 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 10:22:24,074 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000179, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 10:22:24,093 - earthquake-loader - INFO - LOADED | 20250425_0000179 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 10:24:20,034 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000180, Magnitude: 1.3, Region: WESTERN TURKEY
+2025-04-25 10:24:20,053 - earthquake-loader - INFO - LOADED | 20250425_0000180 | mag:1.3 | region:WESTERN TURKEY
+2025-04-25 10:26:07,878 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000181, Magnitude: 1.2, Region: WESTERN TURKEY
+2025-04-25 10:26:07,897 - earthquake-loader - INFO - LOADED | 20250425_0000181 | mag:1.2 | region:WESTERN TURKEY
+2025-04-25 10:26:49,290 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000182, Magnitude: 2.6, Region: WESTERN TURKEY
+2025-04-25 10:26:49,308 - earthquake-loader - INFO - LOADED | 20250425_0000182 | mag:2.6 | region:WESTERN TURKEY
+2025-04-25 10:49:23,844 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000183, Magnitude: 1.0, Region: WESTERN TURKEY
+2025-04-25 10:49:23,863 - earthquake-loader - INFO - LOADED | 20250425_0000183 | mag:1.0 | region:WESTERN TURKEY
+2025-04-25 10:49:50,246 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000184, Magnitude: 3.4, Region: OFF COAST OF COSTA RICA
+2025-04-25 10:49:50,261 - earthquake-loader - INFO - LOADED | 20250425_0000184 | mag:3.4 | region:OFF COAST OF COSTA RICA
+2025-04-25 10:52:59,438 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000185, Magnitude: 0.8, Region: WESTERN TURKEY
+2025-04-25 10:52:59,457 - earthquake-loader - INFO - LOADED | 20250425_0000185 | mag:0.8 | region:WESTERN TURKEY
+2025-04-25 11:03:18,368 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000186, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 11:03:18,387 - earthquake-loader - INFO - LOADED | 20250425_0000186 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 11:08:59,095 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000187, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 11:08:59,114 - earthquake-loader - INFO - LOADED | 20250425_0000187 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 11:15:44,106 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000188, Magnitude: 3.3, Region: KODIAK ISLAND REGION, ALASKA
+2025-04-25 11:15:44,125 - earthquake-loader - INFO - LOADED | 20250425_0000188 | mag:3.3 | region:KODIAK ISLAND REGION, ALASKA
+2025-04-25 11:20:57,434 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000189, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 11:20:57,456 - earthquake-loader - INFO - LOADED | 20250425_0000189 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 11:21:49,863 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000190, Magnitude: 3.7, Region: CENTRAL PERU
+2025-04-25 11:21:49,884 - earthquake-loader - INFO - LOADED | 20250425_0000190 | mag:3.7 | region:CENTRAL PERU
+2025-04-25 11:23:30,393 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000191, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 11:23:30,410 - earthquake-loader - INFO - LOADED | 20250425_0000191 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 11:24:38,008 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000192, Magnitude: 4.6, Region: VANUATU
+2025-04-25 11:24:38,026 - earthquake-loader - INFO - LOADED | 20250425_0000192 | mag:4.6 | region:VANUATU
+2025-04-25 11:25:51,924 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000193, Magnitude: 2.7, Region: CENTRAL ITALY
+2025-04-25 11:25:51,940 - earthquake-loader - INFO - LOADED | 20250425_0000193 | mag:2.7 | region:CENTRAL ITALY
+2025-04-25 11:26:15,163 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000194, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 11:26:15,183 - earthquake-loader - INFO - LOADED | 20250425_0000194 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 11:27:50,006 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000195, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 11:27:50,021 - earthquake-loader - INFO - LOADED | 20250425_0000195 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 11:28:24,519 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000196, Magnitude: 2.7, Region: FLORES SEA
+2025-04-25 11:28:24,539 - earthquake-loader - INFO - LOADED | 20250425_0000196 | mag:2.7 | region:FLORES SEA
+2025-04-25 11:28:52,030 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000197, Magnitude: 4.0, Region: KYRGYZSTAN
+2025-04-25 11:28:52,049 - earthquake-loader - INFO - LOADED | 20250425_0000197 | mag:4.0 | region:KYRGYZSTAN
+2025-04-25 11:42:39,070 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000342, Magnitude: 3.2, Region: PHILIPPINE ISLANDS REGION
+2025-04-25 11:42:39,077 - earthquake-loader - INFO - LOADED | 20250424_0000342 | mag:3.2 | region:PHILIPPINE ISLANDS REGION
+2025-04-25 11:42:39,957 - earthquake-loader - INFO - Processing earthquake - ID: 20250424_0000343, Magnitude: 3.3, Region: LUZON, PHILIPPINES
+2025-04-25 11:42:39,966 - earthquake-loader - INFO - LOADED | 20250424_0000343 | mag:3.3 | region:LUZON, PHILIPPINES
+2025-04-25 11:42:53,998 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000198, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 11:42:54,017 - earthquake-loader - INFO - LOADED | 20250425_0000198 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 11:46:16,052 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000199, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 11:46:16,068 - earthquake-loader - INFO - LOADED | 20250425_0000199 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 11:47:57,451 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000200, Magnitude: 1.8, Region: SPAIN
+2025-04-25 11:47:57,466 - earthquake-loader - INFO - LOADED | 20250425_0000200 | mag:1.8 | region:SPAIN
+2025-04-25 11:49:23,715 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000201, Magnitude: 3.2, Region: MINAHASA, SULAWESI, INDONESIA
+2025-04-25 11:49:23,732 - earthquake-loader - INFO - LOADED | 20250425_0000201 | mag:3.2 | region:MINAHASA, SULAWESI, INDONESIA
+2025-04-25 11:51:00,888 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000202, Magnitude: 6.3, Region: NEAR COAST OF ECUADOR
+2025-04-25 11:51:00,904 - earthquake-loader - INFO - LOADED | 20250425_0000202 | mag:6.3 | region:NEAR COAST OF ECUADOR
+2025-04-25 11:51:22,529 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000203, Magnitude: 1.7, Region: SPAIN
+2025-04-25 11:51:22,536 - earthquake-loader - INFO - LOADED | 20250425_0000203 | mag:1.7 | region:SPAIN
+2025-04-25 11:53:14,371 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000204, Magnitude: 4.1, Region: W. OF ST. VINCENT, WINDWARD ISL.
+2025-04-25 11:53:14,387 - earthquake-loader - INFO - LOADED | 20250425_0000204 | mag:4.1 | region:W. OF ST. VINCENT, WINDWARD ISL.
+2025-04-25 11:55:43,332 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000205, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 11:55:43,350 - earthquake-loader - INFO - LOADED | 20250425_0000205 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 11:58:15,989 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000206, Magnitude: 3.4, Region: WESTERN TURKEY
+2025-04-25 11:58:16,009 - earthquake-loader - INFO - LOADED | 20250425_0000206 | mag:3.4 | region:WESTERN TURKEY
+2025-04-25 11:59:37,009 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000207, Magnitude: 2.2, Region: PUERTO RICO
+2025-04-25 11:59:37,025 - earthquake-loader - INFO - LOADED | 20250425_0000207 | mag:2.2 | region:PUERTO RICO
+2025-04-25 12:03:58,332 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000208, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 12:03:58,348 - earthquake-loader - INFO - LOADED | 20250425_0000208 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 12:06:20,722 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000209, Magnitude: 1.5, Region: WESTERN TURKEY
+2025-04-25 12:06:20,742 - earthquake-loader - INFO - LOADED | 20250425_0000209 | mag:1.5 | region:WESTERN TURKEY
+2025-04-25 12:07:46,617 - earthquake-loader - INFO - Processing earthquake - ID: 20250423_0000117, Magnitude: 4.5, Region: NEAR COAST OF NORTHERN PERU
+2025-04-25 12:07:46,635 - earthquake-loader - INFO - LOADED | 20250423_0000117 | mag:4.5 | region:NEAR COAST OF NORTHERN PERU
+2025-04-25 12:12:15,188 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000210, Magnitude: 5.6, Region: TONGA REGION
+2025-04-25 12:12:15,208 - earthquake-loader - INFO - LOADED | 20250425_0000210 | mag:5.6 | region:TONGA REGION
+2025-04-25 12:15:06,707 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000211, Magnitude: 3.8, Region: NEAR COAST OF ECUADOR
+2025-04-25 12:15:06,726 - earthquake-loader - INFO - LOADED | 20250425_0000211 | mag:3.8 | region:NEAR COAST OF ECUADOR
+2025-04-25 12:20:10,500 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000212, Magnitude: 3.7, Region: HUNGARY
+2025-04-25 12:20:10,516 - earthquake-loader - INFO - LOADED | 20250425_0000212 | mag:3.7 | region:HUNGARY
+2025-04-25 12:22:17,992 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000213, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 12:22:18,010 - earthquake-loader - INFO - LOADED | 20250425_0000213 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 12:33:09,592 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000214, Magnitude: 3.5, Region: ANTOFAGASTA, CHILE
+2025-04-25 12:33:09,611 - earthquake-loader - INFO - LOADED | 20250425_0000214 | mag:3.5 | region:ANTOFAGASTA, CHILE
+2025-04-25 12:35:22,292 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000215, Magnitude: 3.3, Region: NORTHERN SUMATRA, INDONESIA
+2025-04-25 12:35:22,312 - earthquake-loader - INFO - LOADED | 20250425_0000215 | mag:3.3 | region:NORTHERN SUMATRA, INDONESIA
+2025-04-25 12:35:42,950 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000216, Magnitude: 1.8, Region: WESTERN TURKEY
+2025-04-25 12:35:42,965 - earthquake-loader - INFO - LOADED | 20250425_0000216 | mag:1.8 | region:WESTERN TURKEY
+2025-04-25 12:46:16,673 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000217, Magnitude: 2.3, Region: CENTRAL TURKEY
+2025-04-25 12:46:16,692 - earthquake-loader - INFO - LOADED | 20250425_0000217 | mag:2.3 | region:CENTRAL TURKEY
+2025-04-25 12:49:09,180 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000218, Magnitude: 2.1, Region: NORTH ATLANTIC OCEAN
+2025-04-25 12:49:09,196 - earthquake-loader - INFO - LOADED | 20250425_0000218 | mag:2.1 | region:NORTH ATLANTIC OCEAN
+2025-04-25 12:49:37,661 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000219, Magnitude: 2.3, Region: CENTRAL TURKEY
+2025-04-25 12:49:37,677 - earthquake-loader - INFO - LOADED | 20250425_0000219 | mag:2.3 | region:CENTRAL TURKEY
+2025-04-25 12:51:30,410 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000220, Magnitude: 4.3, Region: HINDU KUSH REGION, AFGHANISTAN
+2025-04-25 12:51:30,428 - earthquake-loader - INFO - LOADED | 20250425_0000220 | mag:4.3 | region:HINDU KUSH REGION, AFGHANISTAN
+2025-04-25 12:53:43,313 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000221, Magnitude: 3.2, Region: WESTERN TEXAS
+2025-04-25 12:53:43,332 - earthquake-loader - INFO - LOADED | 20250425_0000221 | mag:3.2 | region:WESTERN TEXAS
+2025-04-25 12:55:46,644 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000222, Magnitude: 2.5, Region: ANTOFAGASTA, CHILE
+2025-04-25 12:55:46,660 - earthquake-loader - INFO - LOADED | 20250425_0000222 | mag:2.5 | region:ANTOFAGASTA, CHILE
+2025-04-25 12:56:22,259 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000223, Magnitude: 2.6, Region: SOUTHERN SUMATRA, INDONESIA
+2025-04-25 12:56:22,275 - earthquake-loader - INFO - LOADED | 20250425_0000223 | mag:2.6 | region:SOUTHERN SUMATRA, INDONESIA
+2025-04-25 13:01:13,874 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000224, Magnitude: 3.4, Region: COCHABAMBA, BOLIVIA
+2025-04-25 13:01:13,890 - earthquake-loader - INFO - LOADED | 20250425_0000224 | mag:3.4 | region:COCHABAMBA, BOLIVIA
+2025-04-25 13:08:11,274 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000225, Magnitude: 3.7, Region: NORTHWESTERN IRAN
+2025-04-25 13:08:11,291 - earthquake-loader - INFO - LOADED | 20250425_0000225 | mag:3.7 | region:NORTHWESTERN IRAN
+2025-04-25 13:08:47,574 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000226, Magnitude: 2.1, Region: WESTERN TEXAS
+2025-04-25 13:08:47,593 - earthquake-loader - INFO - LOADED | 20250425_0000226 | mag:2.1 | region:WESTERN TEXAS
+2025-04-25 13:14:40,550 - earthquake-loader - INFO - Processing earthquake - ID: 20250411_0000290, Magnitude: 4.1, Region: RYUKYU ISLANDS, JAPAN
+2025-04-25 13:14:40,567 - earthquake-loader - INFO - LOADED | 20250411_0000290 | mag:4.1 | region:RYUKYU ISLANDS, JAPAN
+2025-04-25 13:15:29,709 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000227, Magnitude: 0.8, Region: NORTHERN ITALY
+2025-04-25 13:15:29,730 - earthquake-loader - INFO - LOADED | 20250425_0000227 | mag:0.8 | region:NORTHERN ITALY
+2025-04-25 13:22:36,383 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000228, Magnitude: 1.4, Region: WESTERN TURKEY
+2025-04-25 13:22:36,401 - earthquake-loader - INFO - LOADED | 20250425_0000228 | mag:1.4 | region:WESTERN TURKEY
+2025-04-25 13:26:14,967 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000229, Magnitude: 2.1, Region: PORTUGAL
+2025-04-25 13:26:14,982 - earthquake-loader - INFO - LOADED | 20250425_0000229 | mag:2.1 | region:PORTUGAL
+2025-04-25 13:37:54,562 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000230, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 13:37:54,581 - earthquake-loader - INFO - LOADED | 20250425_0000230 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 13:40:06,765 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000231, Magnitude: 1.1, Region: WESTERN TURKEY
+2025-04-25 13:40:06,784 - earthquake-loader - INFO - LOADED | 20250425_0000231 | mag:1.1 | region:WESTERN TURKEY
+2025-04-25 13:40:17,521 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000232, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 13:40:17,539 - earthquake-loader - INFO - LOADED | 20250425_0000232 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 13:42:01,398 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000233, Magnitude: 2.6, Region: ATACAMA, CHILE
+2025-04-25 13:42:01,414 - earthquake-loader - INFO - LOADED | 20250425_0000233 | mag:2.6 | region:ATACAMA, CHILE
+2025-04-25 13:42:57,262 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000234, Magnitude: 3.5, Region: MINDANAO, PHILIPPINES
+2025-04-25 13:42:57,280 - earthquake-loader - INFO - LOADED | 20250425_0000234 | mag:3.5 | region:MINDANAO, PHILIPPINES
+2025-04-25 13:50:05,696 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000235, Magnitude: 2.0, Region: WESTERN TURKEY
+2025-04-25 13:50:05,713 - earthquake-loader - INFO - LOADED | 20250425_0000235 | mag:2.0 | region:WESTERN TURKEY
+2025-04-25 14:03:11,422 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000236, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 14:03:11,441 - earthquake-loader - INFO - LOADED | 20250425_0000236 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 14:04:36,476 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000237, Magnitude: 1.0, Region: WESTERN TURKEY
+2025-04-25 14:04:36,497 - earthquake-loader - INFO - LOADED | 20250425_0000237 | mag:1.0 | region:WESTERN TURKEY
+2025-04-25 14:07:23,650 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000238, Magnitude: 2.7, Region: NEAR N COAST OF PAPUA, INDONESIA
+2025-04-25 14:07:23,660 - earthquake-loader - INFO - LOADED | 20250425_0000238 | mag:2.7 | region:NEAR N COAST OF PAPUA, INDONESIA
+2025-04-25 14:10:01,132 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000239, Magnitude: 1.6, Region: WESTERN TURKEY
+2025-04-25 14:10:01,151 - earthquake-loader - INFO - LOADED | 20250425_0000239 | mag:1.6 | region:WESTERN TURKEY
+2025-04-25 14:15:01,069 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000240, Magnitude: 2.6, Region: WASHINGTON
+2025-04-25 14:15:01,079 - earthquake-loader - INFO - LOADED | 20250425_0000240 | mag:2.6 | region:WASHINGTON
+2025-04-25 14:15:01,903 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000241, Magnitude: 3.8, Region: COSTA RICA
+2025-04-25 14:15:01,920 - earthquake-loader - INFO - LOADED | 20250425_0000241 | mag:3.8 | region:COSTA RICA
+2025-04-25 14:15:04,531 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000242, Magnitude: 3.4, Region: OFF COAST OF COSTA RICA
+2025-04-25 14:15:04,541 - earthquake-loader - INFO - LOADED | 20250425_0000242 | mag:3.4 | region:OFF COAST OF COSTA RICA
+2025-04-25 14:15:05,632 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000243, Magnitude: 3.3, Region: COSTA RICA
+2025-04-25 14:15:05,651 - earthquake-loader - INFO - LOADED | 20250425_0000243 | mag:3.3 | region:COSTA RICA
+2025-04-25 14:15:06,751 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000244, Magnitude: 3.5, Region: COSTA RICA
+2025-04-25 14:15:06,770 - earthquake-loader - INFO - LOADED | 20250425_0000244 | mag:3.5 | region:COSTA RICA
+2025-04-25 14:15:06,770 - earthquake-loader - INFO - Progress: 300 messages processed, 0 errors
+2025-04-25 14:15:07,918 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000245, Magnitude: 3.1, Region: PANAMA-COSTA RICA BORDER REGION
+2025-04-25 14:15:07,937 - earthquake-loader - INFO - LOADED | 20250425_0000245 | mag:3.1 | region:PANAMA-COSTA RICA BORDER REGION
+2025-04-25 14:15:10,174 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000246, Magnitude: 3.4, Region: COSTA RICA
+2025-04-25 14:15:10,191 - earthquake-loader - INFO - LOADED | 20250425_0000246 | mag:3.4 | region:COSTA RICA
+2025-04-25 14:15:11,188 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000247, Magnitude: 3.1, Region: PANAMA-COSTA RICA BORDER REGION
+2025-04-25 14:15:11,198 - earthquake-loader - INFO - LOADED | 20250425_0000247 | mag:3.1 | region:PANAMA-COSTA RICA BORDER REGION
+2025-04-25 14:15:11,250 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000248, Magnitude: 3.3, Region: VERACRUZ, MEXICO
+2025-04-25 14:15:11,259 - earthquake-loader - INFO - LOADED | 20250425_0000248 | mag:3.3 | region:VERACRUZ, MEXICO
+2025-04-25 14:15:12,750 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000249, Magnitude: 3.7, Region: CHIAPAS, MEXICO
+2025-04-25 14:15:12,767 - earthquake-loader - INFO - LOADED | 20250425_0000249 | mag:3.7 | region:CHIAPAS, MEXICO
+2025-04-25 14:15:14,676 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000250, Magnitude: 3.7, Region: GULF OF CALIFORNIA
+2025-04-25 14:15:14,693 - earthquake-loader - INFO - LOADED | 20250425_0000250 | mag:3.7 | region:GULF OF CALIFORNIA
+2025-04-25 14:15:15,894 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000251, Magnitude: 3.0, Region: JALISCO, MEXICO
+2025-04-25 14:15:15,909 - earthquake-loader - INFO - LOADED | 20250425_0000251 | mag:3.0 | region:JALISCO, MEXICO
+2025-04-25 14:15:15,911 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000252, Magnitude: 3.5, Region: OFFSHORE GUATEMALA
+2025-04-25 14:15:15,917 - earthquake-loader - INFO - LOADED | 20250425_0000252 | mag:3.5 | region:OFFSHORE GUATEMALA
+2025-04-25 14:15:18,056 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000253, Magnitude: 3.4, Region: OAXACA, MEXICO
+2025-04-25 14:15:18,074 - earthquake-loader - INFO - LOADED | 20250425_0000253 | mag:3.4 | region:OAXACA, MEXICO
+2025-04-25 14:15:18,077 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000254, Magnitude: 3.3, Region: CHIAPAS, MEXICO
+2025-04-25 14:15:18,086 - earthquake-loader - INFO - LOADED | 20250425_0000254 | mag:3.3 | region:CHIAPAS, MEXICO
+2025-04-25 14:15:19,136 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000255, Magnitude: 3.8, Region: OAXACA, MEXICO
+2025-04-25 14:15:19,155 - earthquake-loader - INFO - LOADED | 20250425_0000255 | mag:3.8 | region:OAXACA, MEXICO
+2025-04-25 14:15:20,207 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000256, Magnitude: 3.5, Region: MICHOACAN, MEXICO
+2025-04-25 14:15:20,213 - earthquake-loader - INFO - LOADED | 20250425_0000256 | mag:3.5 | region:MICHOACAN, MEXICO
+2025-04-25 14:15:21,272 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000257, Magnitude: 3.4, Region: OAXACA, MEXICO
+2025-04-25 14:15:21,291 - earthquake-loader - INFO - LOADED | 20250425_0000257 | mag:3.4 | region:OAXACA, MEXICO
+2025-04-25 14:15:23,598 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000258, Magnitude: 3.4, Region: GUERRERO, MEXICO
+2025-04-25 14:15:23,604 - earthquake-loader - INFO - LOADED | 20250425_0000258 | mag:3.4 | region:GUERRERO, MEXICO
+2025-04-25 14:15:23,637 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000259, Magnitude: 3.1, Region: COLIMA, MEXICO
+2025-04-25 14:15:23,644 - earthquake-loader - INFO - LOADED | 20250425_0000259 | mag:3.1 | region:COLIMA, MEXICO
+2025-04-25 14:15:24,757 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000260, Magnitude: 3.4, Region: OFFSHORE CHIAPAS, MEXICO
+2025-04-25 14:15:24,776 - earthquake-loader - INFO - LOADED | 20250425_0000260 | mag:3.4 | region:OFFSHORE CHIAPAS, MEXICO
+2025-04-25 14:15:26,852 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000261, Magnitude: 3.3, Region: GUERRERO, MEXICO
+2025-04-25 14:15:26,868 - earthquake-loader - INFO - LOADED | 20250425_0000261 | mag:3.3 | region:GUERRERO, MEXICO
+2025-04-25 14:15:26,888 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000262, Magnitude: 3.3, Region: OAXACA, MEXICO
+2025-04-25 14:15:26,895 - earthquake-loader - INFO - LOADED | 20250425_0000262 | mag:3.3 | region:OAXACA, MEXICO
+2025-04-25 14:19:16,950 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000263, Magnitude: 5.2, Region: OFFSHORE EL SALVADOR
+2025-04-25 14:19:16,967 - earthquake-loader - INFO - LOADED | 20250425_0000263 | mag:5.2 | region:OFFSHORE EL SALVADOR
+2025-04-25 14:21:23,422 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000264, Magnitude: 3.1, Region: MOLUCCA SEA
+2025-04-25 14:21:23,440 - earthquake-loader - INFO - LOADED | 20250425_0000264 | mag:3.1 | region:MOLUCCA SEA
+2025-04-25 14:22:56,491 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000265, Magnitude: 1.7, Region: WESTERN TURKEY
+2025-04-25 14:22:56,514 - earthquake-loader - INFO - LOADED | 20250425_0000265 | mag:1.7 | region:WESTERN TURKEY
+2025-04-25 14:23:50,947 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000266, Magnitude: 3.2, Region: ANTOFAGASTA, CHILE
+2025-04-25 14:23:50,970 - earthquake-loader - INFO - LOADED | 20250425_0000266 | mag:3.2 | region:ANTOFAGASTA, CHILE
+2025-04-25 14:26:34,002 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000267, Magnitude: 2.5, Region: NORTHERN ALGERIA
+2025-04-25 14:26:34,019 - earthquake-loader - INFO - LOADED | 20250425_0000267 | mag:2.5 | region:NORTHERN ALGERIA
+2025-04-25 14:29:29,811 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000268, Magnitude: 3.2, Region: WESTERN TURKEY
+2025-04-25 14:29:29,827 - earthquake-loader - INFO - LOADED | 20250425_0000268 | mag:3.2 | region:WESTERN TURKEY
+2025-04-25 14:33:38,181 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000269, Magnitude: 1.7, Region: SWITZERLAND
+2025-04-25 14:33:38,204 - earthquake-loader - INFO - LOADED | 20250425_0000269 | mag:1.7 | region:SWITZERLAND
+2025-04-25 14:33:40,498 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000270, Magnitude: 1.8, Region: WESTERN TURKEY
+2025-04-25 14:33:40,515 - earthquake-loader - INFO - LOADED | 20250425_0000270 | mag:1.8 | region:WESTERN TURKEY
+2025-04-25 14:35:16,445 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000271, Magnitude: 2.6, Region: DODECANESE ISLANDS, GREECE
+2025-04-25 14:35:16,462 - earthquake-loader - INFO - LOADED | 20250425_0000271 | mag:2.6 | region:DODECANESE ISLANDS, GREECE
+2025-04-25 14:37:38,582 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000272, Magnitude: 2.7, Region: WESTERN TURKEY
+2025-04-25 14:37:38,591 - earthquake-loader - INFO - LOADED | 20250425_0000272 | mag:2.7 | region:WESTERN TURKEY
+2025-04-25 14:38:58,561 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000273, Magnitude: 1.9, Region: WESTERN TURKEY
+2025-04-25 14:38:58,567 - earthquake-loader - INFO - LOADED | 20250425_0000273 | mag:1.9 | region:WESTERN TURKEY
+2025-04-25 14:41:43,190 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-04-25 14:41:43,190 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-04-25 14:41:43,190 - earthquake-loader - INFO - Waiting for services to be fully ready...
+2025-04-25 14:41:48,194 - earthquake-loader - INFO - Initializing database schema...
+2025-04-25 14:41:48,203 - db-utils - INFO - Database initialized successfully
+2025-04-25 14:41:48,203 - earthquake-loader - INFO - Connecting to Kafka...
+2025-04-25 14:41:48,203 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-04-25 14:41:48,207 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: connecting to kafka:29092 [('172.25.0.5', 29092) IPv4]
+2025-04-25 14:41:48,207 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2025-04-25 14:41:48,208 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: Connection complete.
+2025-04-25 14:41:48,312 - kafka.conn - INFO - Broker version identified as 2.5.0
+2025-04-25 14:41:48,312 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-04-25 14:41:48,313 - kafka.consumer.subscription_state - INFO - Updating subscribed topics to: ('earthquakes',)
+2025-04-25 14:41:48,313 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-04-25 14:41:48,313 - earthquake-loader - INFO - Starting data ingestion...
+2025-04-25 14:41:50,306 - kafka.cluster - INFO - Group coordinator for earthquake-loader is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=29092, rack=None)
+2025-04-25 14:41:50,306 - kafka.coordinator - INFO - Discovered coordinator coordinator-1 for group earthquake-loader
+2025-04-25 14:41:50,307 - kafka.coordinator - INFO - Starting new heartbeat thread
+2025-04-25 14:41:50,307 - kafka.coordinator.consumer - INFO - Revoking previously assigned partitions set() for group earthquake-loader
+2025-04-25 14:41:50,307 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: connecting to kafka:29092 [('172.25.0.5', 29092) IPv4]
+2025-04-25 14:41:50,308 - kafka.conn - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: Connection complete.
+2025-04-25 14:41:50,308 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.25.0.5', 29092)]>: Closing connection. 
+2025-04-25 14:41:50,408 - kafka.coordinator - INFO - (Re-)joining group earthquake-loader
+2025-04-25 14:41:53,434 - kafka.coordinator - INFO - Elected group leader -- performing partition assignments using range
+2025-04-25 14:41:53,435 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: connecting to kafka:29092 [('172.25.0.5', 29092) IPv4]
+2025-04-25 14:41:53,435 - kafka.conn - INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.25.0.5', 29092)]>: Connection complete.
+2025-04-25 14:41:53,462 - kafka.coordinator - INFO - Successfully joined group earthquake-loader with generation 1
+2025-04-25 14:41:53,462 - kafka.consumer.subscription_state - INFO - Updated partition assignment: [TopicPartition(topic='earthquakes', partition=0)]
+2025-04-25 14:41:53,462 - kafka.coordinator.consumer - INFO - Setting newly assigned partitions {TopicPartition(topic='earthquakes', partition=0)} for group earthquake-loader
+2025-04-25 14:44:05,508 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000274, Magnitude: 2.8, Region: ALBANIA
+2025-04-25 14:44:05,525 - earthquake-loader - INFO - LOADED | 20250425_0000274 | mag:2.8 | region:ALBANIA
+2025-04-25 14:45:05,983 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000273, Magnitude: 2.1, Region: WESTERN TURKEY
+2025-04-25 14:45:05,999 - earthquake-loader - INFO - LOADED | 20250425_0000273 | mag:2.1 | region:WESTERN TURKEY
+2025-04-25 14:45:45,490 - earthquake-loader - INFO - Processing earthquake - ID: 20250425_0000275, Magnitude: 2.7, Region: ANTOFAGASTA, CHILE
+2025-04-25 14:45:45,507 - earthquake-loader - INFO - LOADED | 20250425_0000275 | mag:2.7 | region:ANTOFAGASTA, CHILE

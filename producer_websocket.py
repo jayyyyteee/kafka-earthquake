@@ -128,7 +128,8 @@ def maintain_connection():
 
 if __name__ == "__main__":
     logger.info("Starting earthquake data ingestion pipeline")
-    
+    logger.info("Waiting for Kafka to be fully ready...")
+    time.sleep(5)
     # Initialize Kafka producer
     producer = create_kafka_producer()
     logger.info("Kafka producer initialized")

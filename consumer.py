@@ -95,4 +95,6 @@ def run_pipeline():
 if __name__ == "__main__":
     logger.info("Starting earthquake data loading pipeline")
     logger.info(f"Using database: {os.environ.get('DB_NAME')} on {os.environ.get('DB_HOST')} as user {os.environ.get('DB_USER')}")
+    logger.info("Waiting for services to be fully ready...")
+    time.sleep(5)
     run_pipeline() 
