@@ -26,19 +26,43 @@ os.environ['DB_USER'] = 'earthquake'
 os.environ['DB_PASS'] = 'quakedata'
 
 # Setup logging with file handler
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(os.path.join(logs_dir, 'consumer.log')),
-        logging.StreamHandler()
-    ]
-)
+log_file_path = os.path.join(logs_dir, 'consumer.log')
+
+# Create handlers with immediate flush
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setLevel(logging.INFO)
+
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(logging.INFO)
+
+# Create formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+stream_handler.setFormatter(formatter)
+
+# Get logger
 logger = logging.getLogger('earthquake-loader')
+logger.setLevel(logging.INFO)
+
+# Clear any existing handlers
+if logger.handlers:
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+
+# Add handlers to logger
+logger.addHandler(file_handler)
+logger.addHandler(stream_handler)
+
+def flush_logs():
+    """Force flush all log handlers"""
+    for handler in logger.handlers:
+        handler.flush()
 
 def create_kafka_consumer():
     """Establish Kafka connection"""
     logger.info("Attempting to connect to Kafka...")
+    flush_logs()
+    
     consumer = KafkaConsumer(
         KAFKA_TOPIC,
         bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
@@ -48,6 +72,7 @@ def create_kafka_consumer():
         value_deserializer=lambda x: json.loads(x.decode('utf-8'))
     )
     logger.info(f"Kafka connection established to topic: {KAFKA_TOPIC}")
+    flush_logs()
     return consumer
 
 def process_earthquake(earthquake_data):
@@ -60,15 +85,18 @@ def process_earthquake(earthquake_data):
     # Save to database
     if save_earthquake(earthquake_data):
         logger.info(f"LOADED | {unid} | mag:{magnitude} | region:{region}")
+        flush_logs()
         return True
     else:
         logger.warning(f"LOAD FAILED | {unid}")
+        flush_logs()
         return False
 
 def run_pipeline():
     """Main data loading pipeline"""
     logger.info("Initializing database schema...")
     initialize_database()
+    flush_logs()
     
     # Connect to Kafka
     logger.info("Connecting to Kafka...")
@@ -78,6 +106,7 @@ def run_pipeline():
     logger.info("Starting data ingestion...")
     message_count = 0
     error_count = 0
+    flush_logs()
     
     for message in consumer:
         earthquake_data = message.value
@@ -91,10 +120,13 @@ def run_pipeline():
         # Log progress periodically
         if message_count % 100 == 0:
             logger.info(f"Progress: {message_count} messages processed, {error_count} errors")
+            flush_logs()
 
 if __name__ == "__main__":
     logger.info("Starting earthquake data loading pipeline")
     logger.info(f"Using database: {os.environ.get('DB_NAME')} on {os.environ.get('DB_HOST')} as user {os.environ.get('DB_USER')}")
     logger.info("Waiting for services to be fully ready...")
+    flush_logs()
+    
     time.sleep(5)
     run_pipeline() 
