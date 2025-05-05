@@ -1,21 +1,21 @@
-2025-04-28 03:40:22,404 - earthquake-loader - INFO - TEST: Logger initialized
-2025-04-28 03:40:22,405 - earthquake-loader - INFO - Starting earthquake data loading pipeline
-2025-04-28 03:40:22,405 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
-2025-04-28 03:40:22,405 - earthquake-loader - INFO - Waiting for services to be fully ready...
-2025-04-28 03:40:27,409 - earthquake-loader - INFO - Initializing database schema...
-2025-04-28 03:40:27,416 - earthquake-loader - INFO - Connecting to Kafka...
-2025-04-28 03:40:27,416 - earthquake-loader - INFO - Attempting to connect to Kafka...
-2025-04-28 03:40:27,527 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
-2025-04-28 03:40:27,527 - earthquake-loader - INFO - Starting data ingestion...
-2025-04-28 03:40:30,781 - earthquake-loader - INFO - Processing earthquake - ID: 20250428_0000062, Magnitude: 1.5, Region: FRANCE
-2025-04-28 03:40:30,803 - earthquake-loader - INFO - LOADED | 20250428_0000062 | mag:1.5 | region:FRANCE
-2025-04-28 03:40:56,853 - earthquake-loader - INFO - Processing earthquake - ID: 20250428_0000063, Magnitude: 1.4, Region: WESTERN TURKEY
-2025-04-28 03:40:56,865 - earthquake-loader - INFO - LOADED | 20250428_0000063 | mag:1.4 | region:WESTERN TURKEY
-2025-04-28 03:42:04,469 - earthquake-loader - INFO - Processing earthquake - ID: 20250428_0000064, Magnitude: 1.2, Region: WESTERN TURKEY
-2025-04-28 03:42:04,494 - earthquake-loader - INFO - LOADED | 20250428_0000064 | mag:1.2 | region:WESTERN TURKEY
-2025-04-28 03:42:20,584 - earthquake-loader - INFO - Processing earthquake - ID: 20250428_0000065, Magnitude: 3.5, Region: KEPULAUAN TALAUD, INDONESIA
-2025-04-28 03:42:20,592 - earthquake-loader - INFO - LOADED | 20250428_0000065 | mag:3.5 | region:KEPULAUAN TALAUD, INDONESIA
-2025-04-28 03:43:22,893 - earthquake-loader - INFO - Processing earthquake - ID: 20250428_0000066, Magnitude: 2.4, Region: WESTERN TURKEY
-2025-04-28 03:43:22,917 - earthquake-loader - INFO - LOADED | 20250428_0000066 | mag:2.4 | region:WESTERN TURKEY
-2025-04-28 03:43:47,444 - earthquake-loader - INFO - Processing earthquake - ID: 20250427_0000236, Magnitude: 2.7, Region: NEW SOUTH WALES, AUSTRALIA
-2025-04-28 03:43:47,456 - earthquake-loader - INFO - LOADED | 20250427_0000236 | mag:2.7 | region:NEW SOUTH WALES, AUSTRALIA
+2025-05-05 21:15:59,544 - earthquake-loader - INFO - TEST: Logger initialized
+2025-05-05 21:15:59,545 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-05-05 21:15:59,545 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-05-05 21:15:59,545 - earthquake-loader - INFO - Waiting for services to be fully ready...
+2025-05-05 21:16:04,550 - earthquake-loader - INFO - Initializing database schema...
+2025-05-05 21:16:04,569 - earthquake-loader - INFO - Connecting to Kafka...
+2025-05-05 21:16:04,569 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-05-05 21:16:04,676 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-05-05 21:16:04,676 - earthquake-loader - INFO - Starting data ingestion...
+2025-05-05 21:17:27,303 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000276, Magnitude: 3.0, Region: DRAKE PASSAGE
+2025-05-05 21:17:27,322 - earthquake-loader - INFO - LOADED | 20250505_0000276 | mag:3.0 | region:DRAKE PASSAGE
+2025-05-05 21:18:11,303 - earthquake-loader - INFO - Processing earthquake - ID: 20250502_0000421, Magnitude: 2.8, Region: DRAKE PASSAGE
+2025-05-05 21:18:11,325 - earthquake-loader - INFO - LOADED | 20250502_0000421 | mag:2.8 | region:DRAKE PASSAGE
+2025-05-05 21:18:23,314 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000277, Magnitude: 3.7, Region: ICELAND
+2025-05-05 21:18:23,337 - earthquake-loader - INFO - LOADED | 20250505_0000277 | mag:3.7 | region:ICELAND
+2025-05-05 21:21:26,073 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000278, Magnitude: 3.3, Region: NEW GUINEA, PAPUA NEW GUINEA
+2025-05-05 21:21:26,094 - earthquake-loader - INFO - LOADED | 20250505_0000278 | mag:3.3 | region:NEW GUINEA, PAPUA NEW GUINEA
+2025-05-05 21:21:54,717 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000279, Magnitude: 4.2, Region: OAXACA, MEXICO
+2025-05-05 21:21:54,734 - earthquake-loader - INFO - LOADED | 20250505_0000279 | mag:4.2 | region:OAXACA, MEXICO
+2025-05-05 21:28:11,885 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000280, Magnitude: 3.4, Region: ICELAND
+2025-05-05 21:28:11,908 - earthquake-loader - INFO - LOADED | 20250505_0000280 | mag:3.4 | region:ICELAND
