@@ -1,21 +1,13 @@
-2025-05-05 21:15:59,544 - earthquake-loader - INFO - TEST: Logger initialized
-2025-05-05 21:15:59,545 - earthquake-loader - INFO - Starting earthquake data loading pipeline
-2025-05-05 21:15:59,545 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
-2025-05-05 21:15:59,545 - earthquake-loader - INFO - Waiting for services to be fully ready...
-2025-05-05 21:16:04,550 - earthquake-loader - INFO - Initializing database schema...
-2025-05-05 21:16:04,569 - earthquake-loader - INFO - Connecting to Kafka...
-2025-05-05 21:16:04,569 - earthquake-loader - INFO - Attempting to connect to Kafka...
-2025-05-05 21:16:04,676 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
-2025-05-05 21:16:04,676 - earthquake-loader - INFO - Starting data ingestion...
-2025-05-05 21:17:27,303 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000276, Magnitude: 3.0, Region: DRAKE PASSAGE
-2025-05-05 21:17:27,322 - earthquake-loader - INFO - LOADED | 20250505_0000276 | mag:3.0 | region:DRAKE PASSAGE
-2025-05-05 21:18:11,303 - earthquake-loader - INFO - Processing earthquake - ID: 20250502_0000421, Magnitude: 2.8, Region: DRAKE PASSAGE
-2025-05-05 21:18:11,325 - earthquake-loader - INFO - LOADED | 20250502_0000421 | mag:2.8 | region:DRAKE PASSAGE
-2025-05-05 21:18:23,314 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000277, Magnitude: 3.7, Region: ICELAND
-2025-05-05 21:18:23,337 - earthquake-loader - INFO - LOADED | 20250505_0000277 | mag:3.7 | region:ICELAND
-2025-05-05 21:21:26,073 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000278, Magnitude: 3.3, Region: NEW GUINEA, PAPUA NEW GUINEA
-2025-05-05 21:21:26,094 - earthquake-loader - INFO - LOADED | 20250505_0000278 | mag:3.3 | region:NEW GUINEA, PAPUA NEW GUINEA
-2025-05-05 21:21:54,717 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000279, Magnitude: 4.2, Region: OAXACA, MEXICO
-2025-05-05 21:21:54,734 - earthquake-loader - INFO - LOADED | 20250505_0000279 | mag:4.2 | region:OAXACA, MEXICO
-2025-05-05 21:28:11,885 - earthquake-loader - INFO - Processing earthquake - ID: 20250505_0000280, Magnitude: 3.4, Region: ICELAND
-2025-05-05 21:28:11,908 - earthquake-loader - INFO - LOADED | 20250505_0000280 | mag:3.4 | region:ICELAND
+2025-05-08 03:45:48,713 - earthquake-loader - INFO - TEST: Logger initialized
+2025-05-08 03:45:48,713 - earthquake-loader - INFO - Starting earthquake data loading pipeline
+2025-05-08 03:45:48,714 - earthquake-loader - INFO - Using database: earthquakedb on postgres as user earthquake
+2025-05-08 03:45:48,714 - earthquake-loader - INFO - Waiting for services to be fully ready...
+2025-05-08 03:45:53,719 - earthquake-loader - INFO - Initializing database schema...
+2025-05-08 03:45:53,731 - earthquake-loader - INFO - Connecting to Kafka...
+2025-05-08 03:45:53,731 - earthquake-loader - INFO - Attempting to connect to Kafka...
+2025-05-08 03:45:53,844 - earthquake-loader - INFO - Kafka connection established to topic: earthquakes
+2025-05-08 03:45:53,845 - earthquake-loader - INFO - Starting data ingestion...
+2025-05-08 03:46:31,805 - earthquake-loader - INFO - Processing earthquake - ID: 20250508_0000031, Magnitude: 1.6, Region: SPAIN
+2025-05-08 03:46:31,814 - earthquake-loader - INFO - LOADED | 20250508_0000031 | mag:1.6 | region:SPAIN
+2025-05-08 03:55:51,043 - earthquake-loader - INFO - Processing earthquake - ID: 20250508_0000032, Magnitude: 4.4, Region: ANTOFAGASTA, CHILE
+2025-05-08 03:55:51,064 - earthquake-loader - INFO - LOADED | 20250508_0000032 | mag:4.4 | region:ANTOFAGASTA, CHILE

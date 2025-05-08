@@ -48,7 +48,8 @@ def get_recent_earthquakes(conn, hours=24, min_magnitude=0):
     FROM 
         earthquakes
     WHERE 
-        time >= NOW() AT TIME ZONE 'UTC' - INTERVAL '%s hours'
+        time AT TIME ZONE 'America/Los_Angeles' AT TIME ZONE 'UTC' >= 
+        (NOW() AT TIME ZONE 'America/Los_Angeles' - INTERVAL '%s hours')
         AND magnitude >= %s
         AND action != 'delete'
     ORDER BY 
