@@ -48,8 +48,7 @@ def get_recent_earthquakes(conn, hours=24, min_magnitude=0):
     FROM 
         earthquakes
     WHERE 
-        time AT TIME ZONE 'America/Los_Angeles' AT TIME ZONE 'UTC' >= 
-        (NOW() AT TIME ZONE 'America/Los_Angeles' - INTERVAL '%s hours')
+        time >= NOW() - INTERVAL '1 hour' * %s
         AND magnitude >= %s
         AND action != 'delete'
     ORDER BY 
@@ -59,7 +58,7 @@ def get_recent_earthquakes(conn, hours=24, min_magnitude=0):
     df = pd.read_sql_query(
         query, 
         conn, 
-        params=(str(hours), min_magnitude)
+        params=(hours, min_magnitude)
     )
         
     return df
